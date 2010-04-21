@@ -1,0 +1,324 @@
+TStockClient
+v7
+r0
+t293498172.232044
+cCheck dependencies
+cCompileC build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/main.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_0
+cCompileC build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/stockservantproxy.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockservantproxy.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_0
+cCompileC build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/remoteobjref.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_0
+cCompileC build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/stockaccountproxy.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockaccountproxy.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_0
+cCompileC build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/stockproxy.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockproxy.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_0
+cLd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug/StockClient" normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/arpa/inet.h
+c000000004A4180D20000000000001533
+t1245806802
+s5427
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
+c000000004A5C14A600000000000003EB
+t1247548582
+s1003
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netdb.h
+c000000004A4181220000000000003057
+t1245806882
+s12375
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/in.h
+c000000004A73D64C000000000000539D
+t1249105484
+s21405
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/signal.h
+c000000004A5C14A700000000000014F0
+t1247548583
+s5360
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004A5C14A70000000000002DF5
+t1247548583
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/socket.h
+c000000004A73D65400000000000059BC
+t1249105492
+s22972
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004A73D6550000000000002905
+t1249105493
+s10501
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/wait.h
+c000000004A73D656000000000000273C
+t1249105494
+s10044
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004A5C14A7000000000000563E
+t1247548583
+s22078
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug/StockClient
+t1271805372
+s51760
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/StockClient.LinkFileList
+c000000004BCBDCBF000000000000032F
+t1271651519
+s815
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/main.o
+t1271801739
+s50920
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/remoteobjref.ii
+t1271637702
+s817329
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/remoteobjref.o
+t1271805372
+s60248
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/stockaccountproxy.o
+t1271802433
+s47544
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/stockproxy.o
+t1271651550
+s16596
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/stockservantproxy.o
+t1271801739
+s47812
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp
+c000000004BCE278A0000000000000A43
+t1271801738
+s2627
+i<iostream>
+i<string>
+i"remoteobjref.h"
+i"stockservantproxy.h"
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.cpp
+c000000004BCE35BB0000000000001489
+t1271805371
+s5257
+i"remoteobjref.h"
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.h
+c000000004BCBD98E0000000000000675
+t1271650702
+s1653
+i<iostream>
+i<fstream>
+i<string>
+i<sstream>
+i<iomanip>
+i<stdio.h>
+i<stdlib.h>
+i<unistd.h>
+i<errno.h>
+i<sys/types.h>
+i<sys/socket.h>
+i<netinet/in.h>
+i<netdb.h>
+i<arpa/inet.h>
+i<sys/wait.h>
+i<signal.h>
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockaccountproxy.cpp
+c000000004BCE2A41000000000000033B
+t1271802433
+s827
+i"stockaccountproxy.h"
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockaccountproxy.h
+c000000004BCE278A000000000000027D
+t1271801738
+s637
+i<iostream>
+i<string>
+i"remoteobjref.h"
+i"stockproxy.h"
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockproxy.cpp
+c000000004BCBDCBF00000000000000A4
+t1271651519
+s164
+i"stockproxy.h"
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockproxy.h
+c000000004BCBDCDE000000000000019D
+t1271651550
+s413
+i<iostream>
+i<string>
+i"remoteobjref.h"
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockservantproxy.cpp
+c000000004BCE1A17000000000000053E
+t1271798295
+s1342
+i"stockservantproxy.h"
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockservantproxy.h
+c000000004BCE1A17000000000000024C
+t1271798295
+s588
+i<iostream>
+i<string>
+i"remoteobjref.h"
+i"stockaccountproxy.h"
+
+C<C0005:'CompileC remoteobjref.o':P8:W0>
+s293330501.900097
+e293330502.085154
+r1
+xCompileC
+xbuild/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/remoteobjref.o
+x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.cpp293330501#293330502#0(0"0(0#0#94"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.cpp8386658438684291072#1895"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/DerivedSources" -fpch-preprocess -E "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/remoteobjref.ii"0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies293498171#293498171#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/main.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_0
+s293494538.655023
+e293494539.039082
+r1
+xCompileC
+xbuild/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/main.o
+x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_0
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp: In function 'int userinterface()':
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp:112: warning: control reaches end of non-void function
+lSLF07#2@94"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp293494538#293494539#0(265"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp: In function 'int userinterface()':/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp:112: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function293494539#123#142#0(6@86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp293494538#112#0#112#0#40"control reaches end of non-void function0(0#0#86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp4300885448#1861"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/main.o"0#
+
+CCompileC build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/main.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s293330829.967686
+e293330830.394736
+r1
+xCompileC
+xbuild/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/main.o
+x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp: In function 'int initialmenu()':
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp:48: warning: control reaches end of non-void function
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp: In function 'int createaccount()':
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp:27: warning: control reaches end of non-void function
+lSLF07#2@94"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp293330829#293330830#0(526"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp: In function 'int initialmenu()':/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp:48: warning: control reaches end of non-void function/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp: In function 'int createaccount()':/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp:27: warning: control reaches end of non-void function2(22@40"Control reaches end of non-void function293330830#121#141#0(6@86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp293315641#48#0#48#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function293330830#385#141#0(6@86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp293315641#27#0#27#0#40"control reaches end of non-void function0(0#0#86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp4300885448#1861"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/main.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/main.o"0#
+
+CCompileC build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/remoteobjref.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_0
+s293498171.890716
+e293498172.194674
+r1
+xCompileC
+xbuild/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/remoteobjref.o
+x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_0
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.cpp: In member function 'int RemoteObjModule::Register(std::string, void*)':
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.cpp:82: warning: control reaches end of non-void function
+lSLF07#2@102"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.cpp293498171#293498172#0(317"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.cpp: In member function 'int RemoteObjModule::Register(std::string, void*)':/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.cpp:82: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function293498172#168#149#0(6@94"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.cpp293498171#82#0#82#0#40"control reaches end of non-void function0(0#0#94"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.cpp4300885448#1877"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/remoteobjref.o"0#
+
+CCompileC build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/remoteobjref.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s293317680.100253
+e293317680.766504
+r1
+xCompileC
+xbuild/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/remoteobjref.o
+x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.cpp293317680#293317680#0(317"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.cpp: In member function 'int RemoteObjModule::Register(std::string, void*)':/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.cpp:82: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function293317680#168#149#0(6@94"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.cpp293317680#82#0#82#0#40"control reaches end of non-void function0(0#0#94"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.cpp4300885448#1877"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/remoteobjref.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/remoteobjref.o"0#
+
+CCompileC build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/stockaccountproxy.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockaccountproxy.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_0
+s293495233.443316
+e293495233.716444
+r1
+xCompileC
+xbuild/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/stockaccountproxy.o
+x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockaccountproxy.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@107"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockaccountproxy.cpp293495233#293495233#0(0"0(0#0#99"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockaccountproxy.cpp4300885448#1887"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockaccountproxy.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/stockaccountproxy.o"0#
+
+CCompileC build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/stockproxy.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockproxy.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_0
+s293344350.489462
+e293344350.921201
+r1
+xCompileC
+xbuild/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/stockproxy.o
+x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockproxy.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@100"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockproxy.cpp293344350#293344350#0(0"0(0#0#92"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockproxy.cpp4300885448#1873"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockproxy.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/stockproxy.o"0#
+
+CCompileC build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/stockservantproxy.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockservantproxy.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_0
+s293494538.655831
+e293494539.032274
+r1
+xCompileC
+xbuild/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/stockservantproxy.o
+x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockservantproxy.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@107"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockservantproxy.cpp293494538#293494539#0(0"0(0#0#99"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockservantproxy.cpp4300885448#1887"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockservantproxy.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/stockservantproxy.o"0#
+
+CCompileC build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/stockservantproxy.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockservantproxy.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s293316739.665210
+e293316740.185021
+r1
+xCompileC
+xbuild/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/stockservantproxy.o
+x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockservantproxy.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockservantproxy.cpp293316739#293316740#0(0"0(0#0#99"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockservantproxy.cpp4300885448#1887"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/StockClient-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockservantproxy.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/stockservantproxy.o"0#
+
+CLd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug/StockClient" normal x86_64
+s293498172.194767
+e293498172.231992
+r1
+xLd
+x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug/StockClient
+xnormal
+xx86_64
+lSLF07#2@106"Link /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug/StockClient293498172#293498172#0(0"0(0#0#0"4300885448#719"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.0 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug" -filelist "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/StockClient.build/Debug/StockClient.build/Objects-normal/x86_64/StockClient.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/build/Debug/StockClient"0#
+

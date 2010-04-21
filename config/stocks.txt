@@ -1,0 +1,25 @@
+AAPL 244.59 Apple Inc.
+EMC 19.41 EMC Corporation
+EQIX 99.26 Equinix, Inc.
+MSFT 31.36 Microsoft Corporation
+NTAP 34.67 NetApp, Inc.
+RAX 20.37 Rackspace Hosting, Inc.
+SVVS 17.14 Savvis, Inc.
+T 26.66 AT&T Inc.
+TMRK 7.22 Terremark Worldwide, Inc.
+UNH 30.98 UnitedHealth Group Incorporated
+INTC 24.12 Intel Corporation
+CSCO 27.18 Cisco Systems, Inc.
+HBAN 5.83 Huntington Bancshares Incorporated
+BPOP 3.91 Popular, Inc.
+YHOO 18.38 Yahoo! Inc.
+DELL 17.01 Dell, Inc.
+ORCL 26.15 Oracle Corporation
+HGSI 29.61 Human Genome Sciences, Inc.
+PALM 4.91 Palm, Inc.
+AMAT 14.46 Applied Materials, Inc.
+NVDA 17.04 NVIDIA Corporation
+ARRY 4.02 Array BioPharma Inc.
+FITB 14.80 First Third Bancshares
+QCOM 43.29 QUALCOMM Incorporated
+IBM 129.69 IBM Corporation

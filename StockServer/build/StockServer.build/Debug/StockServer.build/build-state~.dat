@@ -1,0 +1,74 @@
+TStockServer
+v7
+r0
+t293202499.368845
+cCheck dependencies
+cCompileC build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/main.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004A5C14A70000000000001731
+t1247548583
+s5937
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/StockServer
+t2
+s0
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/StockServer.LinkFileList
+c000000004BC9B2C2000000000000009B
+t1271509698
+s155
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp
+c000000004BC9B2C20000000000000E84
+t1271509698
+s3716
+i<string.h>
+i<iostream>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies293202498#293202498#0(0"0(0#1#0"31244212048494624#0"0#
+
+CCompileC build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/main.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s293202498.389761
+e293202499.368728
+r0
+xCompileC
+xbuild/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/main.o
+x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:4:20: warning: missing whitespace after the macro name
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:5:18: warning: missing whitespace after the macro name
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:16: error: expected `)' before 'ipaddress'
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:19: error: expected ';' before 'int'
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:26: error: ISO C++ forbids declaration of 'Register' with no type
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:27: error: ISO C++ forbids declaration of 'Lookup' with no type
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:33: error: 'string' has not been declared
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:42: error: 'string' has not been declared
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:46: error: 'string' has not been declared
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp: In constructor 'Stock::Stock(int, int)':
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:48: error: expected `;' before 'price'
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp: At global scope:
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:52: error: redefinition of 'float Stock::Price()'
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:34: error: 'float Stock::Price()' previously defined here
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:58: error: 'int Stock::Sell' is not a static member of 'class Stock'
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:58: error: 'numshares' was not declared in this scope
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:58: error: expected ',' or ';' before '{' token
+lSLF07#2@94"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp293202498#293202499#0(2303"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:4:20: warning: missing whitespace after the macro name/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:5:18: warning: missing whitespace after the macro name/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:16: error: expected `)' before 'ipaddress'/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:19: error: expected ';' before 'int'/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:26: error: ISO C++ forbids declaration of 'Register' with no type/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:27: error: ISO C++ forbids declaration of 'Lookup' with no type/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:33: error: 'string' has not been declared/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:42: error: 'string' has not been declared/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:46: error: 'string' has not been declared/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp: In constructor 'Stock::Stock(int, int)':/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:48: error: expected `;' before 'price'/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp: At global scope:/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:52: error: redefinition of 'float Stock::Price()'/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:34: error: 'float Stock::Price()' previously defined here/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:58: error: 'int Stock::Sell' is not a static member of 'class Stock'/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:58: error: 'numshares' was not declared in this scope/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp:58: error: expected ',' or ';' before '{' token16(22@39"Missing whitespace after the macro name293202499#0#142#0(6@86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp293202498#4#0#4#0#0"0(22@39"Missing whitespace after the macro name293202499#142#142#0(6@86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp293202498#5#0#5#0#0"0(4@31"Expected `)' before 'ipaddress'293202499#284#130#0(6@86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp293202498#16#0#16#0#19"expected * before *0(4@25"Expected ';' before 'int'293202499#414#124#0(6@86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp293202498#19#0#19#0#19"expected * before *0(4@54"ISO C++ forbids declaration of 'Register' with no type293202499#538#153#0(6@86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp293202498#26#0#26#0#47"ISO C++ forbids declaration of '*' with no type0(4@52"ISO C++ forbids declaration of 'Lookup' with no type293202499#691#151#0(6@86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp293202498#27#0#27#0#47"ISO C++ forbids declaration of '*' with no type0(4@30"'string' has not been declared293202499#842#129#0(6@86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp293202498#33#0#33#0#25"'*' has not been declared0(4@30"'string' has not been declared293202499#971#129#0(6@86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp293202498#42#0#42#0#25"'*' has not been declared0(4@30"'string' has not been declared293202499#1100#129#0(6@86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp293202498#46#0#46#0#25"'*' has not been declared0(4@27"Expected `;' before 'price'293202499#1358#126#0(6@86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp293202498#48#0#48#0#19"expected * before *0(23@16"At global scope:293202499#1484#105#0(6@86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp293202498#0#0#0#0#0"0(4@38"Redefinition of 'float Stock::Price()'293202499#1589#137#0(6@86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp293202498#52#0#52#0#19"redefinition of '*'0(13@46"'float Stock::Price()' previously defined here293202499#1726#145#0(6@86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp293202498#34#0#34#0#0"0(4@57"'int Stock::Sell' is not a static member of 'class Stock'293202499#1871#156#0(6@86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp293202498#58#0#58#0#0"0(4@42"'numshares' was not declared in this scope293202499#2027#141#0(6@86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp293202498#58#0#58#0#34"'*' was not declared in this scope0(4@36"Expected ',' or ';' before '{' token293202499#2168#135#0(6@86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp293202498#58#0#58#0#19"expected * before *0(0#0#86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp8317415637651117056#1861"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/main.o"1#
+
+CLd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/StockServer" normal x86_64
+r0
+
