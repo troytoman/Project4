@@ -1,7 +1,7 @@
 TStockServer
 v7
 r0
-t293516513.962803
+t293580687.225858
 cCheck dependencies
 cCompileC build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/main.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_0
 cCompileC build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/stockservant.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockservant.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_0
@@ -225,6 +225,7 @@ c000000004BCE78F1000000000000040A
 t1271822577
 s1034
 i<iostream>
+i<fstream>
 i<string>
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockaccount.cpp
@@ -257,7 +258,7 @@ i"stockaccount.h"
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies293516513#293516513#0(0"0(0#1#0"4300885448#0"0#
+lSLF07#2@18"Check dependencies293580687#293580687#0(0"0(0#1#0"31244212048494624#0"0#
 
 CCompileC build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/bankproxy.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/bankproxy.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_0
 s293341307.902771
