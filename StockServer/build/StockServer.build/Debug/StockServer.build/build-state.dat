@@ -1,7 +1,7 @@
 TStockServer
 v7
 r0
-t293580687.225858
+t293686124.519892
 cCheck dependencies
 cCompileC build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/main.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_0
 cCompileC build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/stockservant.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockservant.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_0
@@ -114,8 +114,8 @@ i<iostream>
 i<string>
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/StockServer
-t1271823713
-s58152
+t1271992848
+s59096
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/StockServer.LinkFileList
 c000000004BCBCE7200000000000003BD
@@ -127,12 +127,12 @@ t1271648508
 s1276
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/main.o
-t1271822992
-s40768
+t1271992757
+s43524
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/remoteobj.o
-t1271823713
-s82652
+t1271992758
+s82700
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/skeleton.o
 t1271646943
@@ -143,23 +143,24 @@ t2
 s0
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/stock.o
-t1271822630
-s41732
+t1271992848
+s45280
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/stockaccount.o
-t1271822578
-s39200
+t1271992757
+s39248
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/stockservant.o
-t1271822578
-s41144
+t1271992757
+s41192
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp
-c000000004BCE79FC000000000000036F
-t1271822844
-s879
+c000000004BD0E6F800000000000004B9
+t1271981816
+s1209
 i<iostream>
 i<string>
+i<pthread.h>
 i"remoteobj.h"
 i"skeleton.h"
 
@@ -170,8 +171,8 @@ s11320
 i"remoteobj.h"
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/remoteobj.h
-c000000004BCE7A900000000000000A58
-t1271822992
+c000000004BD0DCC50000000000000A58
+t1271979205
 s2648
 i<iostream>
 i<fstream>
@@ -215,15 +216,15 @@ t1271515449
 s132
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stock.cpp
-c000000004BCE7926000000000000063B
-t1271822630
-s1595
+c000000004BD1121000000000000007DC
+t1271992848
+s2012
 i"stock.h"
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stock.h
-c000000004BCE78F1000000000000040A
-t1271822577
-s1034
+c000000004BD111B50000000000000432
+t1271992757
+s1074
 i<iostream>
 i<fstream>
 i<string>
@@ -258,7 +259,7 @@ i"stockaccount.h"
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies293580687#293580687#0(0"0(0#1#0"31244212048494624#0"0#
+lSLF07#2@18"Check dependencies293686124#293686124#0(0"0(0#1#0"4300885448#0"0#
 
 CCompileC build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/bankproxy.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/bankproxy.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_0
 s293341307.902771
@@ -287,8 +288,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@99"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/bankproxy.cpp293204605#293204605#0(0"0(0#0#91"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/bankproxy.cpp4300885448#1871"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/bankproxy.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/bankproxy.o"0#
 
 CCompileC build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/main.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_0
-s293515792.325743
-e293515792.643454
+s293685557.461693
+e293685557.936077
 r1
 xCompileC
 xbuild/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/main.o
@@ -297,7 +298,7 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_0
-lSLF07#2@94"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp293515792#293515792#0(0"0(0#0#86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp4300885448#1861"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/main.o"0#
+lSLF07#2@94"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp293685557#293685557#0(0"0(0#0#86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp4300885448#1861"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/main.o"0#
 
 CCompileC build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/main.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s293339743.315923
@@ -313,8 +314,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@94"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp293339743#293339743#0(0"0(0#0#86"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp4300885448#1861"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/main.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/main.o"0#
 
 CCompileC build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/remoteobj.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/remoteobj.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_0
-s293516513.677870
-e293516513.945251
+s293685557.477671
+e293685558.027917
 r1
 xCompileC
 xbuild/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/remoteobj.o
@@ -323,7 +324,7 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_0
-lSLF07#2@99"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/remoteobj.cpp293516513#293516513#0(0"0(0#0#91"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/remoteobj.cpp4300885448#1871"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/remoteobj.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/remoteobj.o"0#
+lSLF07#2@99"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/remoteobj.cpp293685557#293685558#0(0"0(0#0#91"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/remoteobj.cpp4300885448#1871"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/remoteobj.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/remoteobj.o"0#
 
 CCompileC build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/remoteobj.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/remoteobj.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s293340955.898065
@@ -355,8 +356,8 @@ CCompileC build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/
 r0
 
 CCompileC build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/stock.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stock.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_0
-s293515430.248826
-e293515430.516654
+s293685648.046288
+e293685648.278493
 r1
 xCompileC
 xbuild/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/stock.o
@@ -365,7 +366,7 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_0
-lSLF07#2@95"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stock.cpp293515430#293515430#0(295"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stock.cpp: In member function 'Stock* StockMarket::getStock(std::string)':/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stock.cpp:57: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function293515430#153#142#0(6@87"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stock.cpp293515430#57#0#57#0#40"control reaches end of non-void function0(0#0#87"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stock.cpp4300885448#1863"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stock.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/stock.o"0#
+lSLF07#2@95"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stock.cpp293685648#293685648#0(0"0(0#0#87"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stock.cpp4300885448#1863"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stock.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/stock.o"0#
 
 CCompileC build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/stock.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stock.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s293303969.971590
@@ -383,8 +384,8 @@ o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/s
 lSLF07#2@95"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stock.cpp293303969#293303970#0(280"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stock.cpp: In member function 'float Stock::updateprice()':/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stock.cpp:30: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function293303970#138#142#0(6@87"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stock.cpp293206426#30#0#30#0#40"control reaches end of non-void function0(0#0#87"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stock.cpp4300885448#1863"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stock.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/stock.o"0#
 
 CCompileC build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/stockaccount.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockaccount.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_0
-s293515377.826035
-e293515378.293808
+s293685557.478721
+e293685557.934164
 r1
 xCompileC
 xbuild/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/stockaccount.o
@@ -393,7 +394,7 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_0
-lSLF07#2@102"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockaccount.cpp293515377#293515378#0(0"0(0#0#94"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockaccount.cpp4300885448#1877"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockaccount.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/stockaccount.o"0#
+lSLF07#2@102"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockaccount.cpp293685557#293685557#0(0"0(0#0#94"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockaccount.cpp4300885448#1877"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockaccount.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/stockaccount.o"0#
 
 CCompileC build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/stockaccount.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockaccount.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s293334848.217758
@@ -409,8 +410,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@102"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockaccount.cpp293334848#293334848#0(0"0(0#0#94"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockaccount.cpp4300885448#1877"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockaccount.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/stockaccount.o"0#
 
 CCompileC build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/stockservant.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockservant.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_0
-s293515377.823789
-e293515378.301553
+s293685557.476314
+e293685557.939534
 r1
 xCompileC
 xbuild/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/stockservant.o
@@ -419,7 +420,7 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_0
-lSLF07#2@102"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockservant.cpp293515377#293515378#0(0"0(0#0#94"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockservant.cpp4300885448#1877"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockservant.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/stockservant.o"0#
+lSLF07#2@102"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockservant.cpp293685557#293685557#0(0"0(0#0#94"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockservant.cpp4300885448#1877"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockservant.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/stockservant.o"0#
 
 CCompileC build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/stockservant.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockservant.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s293334928.502473
@@ -435,12 +436,12 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@102"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockservant.cpp293334928#293334928#0(634"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockservant.cpp: In function 'int closeStockAccount(StockAccount*)':/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockservant.cpp:39: warning: control reaches end of non-void function/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockservant.cpp: In member function 'StockAccount* StockServant::getStockAccount(std::string, std::string)':/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockservant.cpp:34: warning: control reaches end of non-void function2(22@40"Control reaches end of non-void function293334928#148#149#0(6@94"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockservant.cpp293334928#39#0#39#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function293334928#485#149#0(6@94"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockservant.cpp293334928#34#0#34#0#40"control reaches end of non-void function0(0#0#94"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockservant.cpp4300885448#1877"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/StockServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockservant.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/stockservant.o"0#
 
 CLd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/StockServer" normal x86_64
-s293516513.945505
-e293516513.962755
+s293685648.278559
+e293685648.296881
 r1
 xLd
 x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/StockServer
 xnormal
 xx86_64
-lSLF07#2@106"Link /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/StockServer293516513#293516513#0(0"0(0#0#0"4300885448#719"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.0 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug" -filelist "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/StockServer.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/StockServer"0#
+lSLF07#2@106"Link /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/StockServer293685648#293685648#0(0"0(0#0#0"4300885448#719"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.0 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug" -filelist "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/StockServer.build/Debug/StockServer.build/Objects-normal/x86_64/StockServer.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/build/Debug/StockServer"0#
 

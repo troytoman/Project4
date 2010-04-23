@@ -2,6 +2,8 @@
 #include <string>
 using namespace std;
 
+#include <pthread.h>
+
 #include "remoteobj.h"
 #include "skeleton.h"
 
@@ -18,7 +20,18 @@ StockHoldingSkeleton * shskel;
 //Instantiate the Remote Object Module
 RemoteObjModule rom;
 
+void * MarketPricing( void * market ){ //Runs in a thread and handles price changes
+	
+	StockMarket * smkt = (StockMarket *) market;
+	
+	smkt->gopricing();
+	
+	return 0;
+};
+
 int main (int argc, char * const argv[]) {
+	pthread_t  tid; 
+
 	char hname[25];
 	StockAccountSkeleton sak;
 	StockHoldingSkeleton shk;
@@ -39,6 +52,10 @@ int main (int argc, char * const argv[]) {
 	shskel = &shk;
 	
 	//Create StockMarket
+	StockMarket sm;
+	
+	//Start a thread that runs the MarketPricing app
+	pthread_create(&tid, NULL, MarketPricing, &sm);
 	
 	//Start Communications
 	rom.StartCommunications();

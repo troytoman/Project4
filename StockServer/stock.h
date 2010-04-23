@@ -21,7 +21,8 @@ class Stock {
 public:
 	void createlisting (string ssymbol, float sprice, string coname);
 	float getPrice() {return (price); };
-	int updatePrice();
+	void updatePrice();
+	string getsymbol() {return stocksymbol;};
 private:
 	float price;
 	string stocksymbol;
@@ -44,9 +45,9 @@ class StockMarket {
 public:
 	StockMarket(); //Starts up the StockMarket and initiates the pricing thread
 	Stock * getStock(string stocksymbol); //Provides a pointer to the stock object
+	void gopricing(); //Runs in a thread and handles price changes
 private:
 	Stock stocklist[NUMSTOCKS];
-	void MarketPricing(); //Runs in a thread and handles price changes
 };
 	
 
