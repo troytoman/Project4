@@ -54,3 +54,7 @@ int StockServant::closeStockAccount(string n, string p) {
 	return 0;
 
 };
+
+Stock * StockServant::getStock (string stocksymbol) {
+	return sm.getStock(stocksymbol);
+};

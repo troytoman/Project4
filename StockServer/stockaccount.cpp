@@ -29,13 +29,13 @@ string StockAccount::buyStock(string s, int numshares) {
 			//Find the stock and set pointer
 			if (!stocks[i].setStock(s)) {
 				stocks[i].setStock("NULL");
-				return "Stock not found.";
+				return "\nStock not found.\n";
 			}
 		}
 		if (stocks[i].stocksymbol() == s) {
 			float transaction = numshares * stocks[i].Price();
 			if (transaction > cashbalance) {
-				return "Not enough cash.";
+				return "\n!Not enough cash.!\n";
 			} else {
 				cashbalance -= transaction;
 				stocks[i].Buy(numshares);
@@ -43,18 +43,22 @@ string StockAccount::buyStock(string s, int numshares) {
 			}
 		} 
 	}
-	return "Stock not found.";
+	return "\n!Stock not found.!\n";
 };
 
 string StockAccount::sellStock(string s, int numshares) {
 	for (int i=0; i<NUMSTOCKS; i++) {
-		if (stocks[i].stocksymbol() == s) {
-			cashbalance += numshares * stocks[i].Price();
-			stocks[i].Sell(numshares);
-			return "OK";
+		if (stocks[i].stocksymbol() == s) {	
+			if (stocks[i].Sell(numshares)) {
+				cashbalance += (numshares * stocks[i].Price());
+				return "OK";
+			} else {
+				return "\n!Not enough shares!\n";
+			}
+
 		}
 	}
-	return "Stock not found.";
+	return "\n!Stock not found.!\n";
 };
 
 

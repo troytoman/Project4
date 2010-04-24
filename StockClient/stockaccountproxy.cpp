@@ -36,7 +36,7 @@ string StockAccountProxy::buyStock(string s, int numshares) {
 	return (rom.comm(remref, marshall));
 };
 
-			string StockAccountProxy::sellStock(string s, int numshares) {
+string StockAccountProxy::sellStock(string s, int numshares) {
 
 	stringstream parms;
 	

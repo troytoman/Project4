@@ -23,6 +23,7 @@ public:
 	StockAccountProxy createStockAccount (string name, string pass, string bank);
 	StockAccountProxy getStockAccount (string name, string pass);
 	int	closeStockAccount (string name, string pass);
+	StockProxy getStock (string s);
 private:
 	RemoteObjRef remref;
 };

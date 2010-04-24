@@ -19,9 +19,10 @@ using namespace std;
 // The Stock class represents a stock within a stock account. 
 class StockProxy {
 public:
-	float Price();
+	StockProxy(RemoteObjRef newref);
+	string view();
 private:
-	RemoteObjRef remeref;
+	RemoteObjRef remref;
 };
 
 #endif

@@ -9,7 +9,7 @@ using namespace std;
 RemoteObjModule rom;
 
 //Create the StockServant Proxy
-StockServantProxy stockserv;
+StockServantProxy stockserver;
 
 int manageaccount(StockAccountProxy stockacct) {	
 	int choice;
@@ -23,9 +23,10 @@ int manageaccount(StockAccountProxy stockacct) {
 		cout << "Manage Account" << endl;
 		cout << "1: View Account" << endl;
 		cout << "2: Buy Stock" << endl;
-		cout << "3: Sel Stock" << endl;
+		cout << "3: Sell Stock" << endl;
 		cout << "4: Bank Transfer" << endl;
 		cout << "5: Return to Main Menu" << endl;
+		cout << "6: Check Stock" << endl;
 		cout << "Option: ";
 		cin >> choice;
 		
@@ -64,6 +65,14 @@ int manageaccount(StockAccountProxy stockacct) {
 				
 		} else if (choice == 5) { //Return to Main Menu
 			return 1;
+		} else if (choice == 6) { //Check on stock
+			string s;
+			
+			cout << "Symbol: ";
+			cin >> s;
+			
+			StockProxy check = stockserver.getStock(s);
+			cout << endl << check.view() << endl << endl;
 		}
 	}
 }
@@ -71,7 +80,6 @@ int manageaccount(StockAccountProxy stockacct) {
 void userinterface () {
 	int logoff, choice;
 	string name, bank;
-	StockServantProxy stockserver;
 	StockAccountProxy stockaccount;
 
 	

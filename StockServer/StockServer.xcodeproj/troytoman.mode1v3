@@ -270,7 +270,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>10</integer>
+									<integer>4</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -313,7 +313,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>stock.cpp</string>
+								<string>stockaccount.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -321,11 +321,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>stock.cpp</string>
+										<string>stockaccount.cpp</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>26E1C9DD1182A7F500460BFE</string>
+										<string>26E1CABB1182BCED00460BFE</string>
 										<key>history</key>
 										<array>
 											<string>26BE6D7C1179F7C900DCC1CB</string>
@@ -336,17 +336,17 @@
 											<string>26BE7255117C072D00DCC1CB</string>
 											<string>260A1357117C284A0033DBCA</string>
 											<string>260A1359117C284A0033DBCA</string>
-											<string>26791536117EB2DF00CBB567</string>
-											<string>26791537117EB2DF00CBB567</string>
 											<string>2679153B117EB2DF00CBB567</string>
 											<string>2650C23611811BE00042ED36</string>
-											<string>26E1C9341182976F00460BFE</string>
-											<string>26E1C9981182A0EF00460BFE</string>
 											<string>26E1C99B1182A0EF00460BFE</string>
-											<string>26E1C9B91182A50C00460BFE</string>
-											<string>26E1C9C11182A64A00460BFE</string>
-											<string>26E1C9C21182A64A00460BFE</string>
-											<string>26E1C9C31182A64A00460BFE</string>
+											<string>26E1CA1D1182AFE400460BFE</string>
+											<string>26E1CA1E1182AFE400460BFE</string>
+											<string>26E1CA2A1182B07A00460BFE</string>
+											<string>26E1CA411182B2D100460BFE</string>
+											<string>26E1CA4F1182B3AA00460BFE</string>
+											<string>26E1CAA71182BA8C00460BFE</string>
+											<string>26E1CAA81182BA8C00460BFE</string>
+											<string>26E1CAA91182BA8C00460BFE</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -544,11 +544,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>26E1CABC1182BCED00460BFE</string>
 		<string>26E1C9411182976F00460BFE</string>
 		<string>26E1C9421182976F00460BFE</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>26CF10BD117368EB006044D0</string>
 		<string>1CD10A99069EF8BA00B06720</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/StockServer.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -568,14 +569,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>stock.cpp</string>
+								<string>main.cpp</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -592,6 +591,8 @@
 							<string>220pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -675,8 +676,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {591, 281}}</string>
-											<string>{{0, 281}, {591, 283}}</string>
+											<string>{{0, 0}, {444, 312}}</string>
+											<string>{{0, 312}, {444, 252}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -691,8 +692,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {591, 564}}</string>
-											<string>{{591, 0}, {590, 564}}</string>
+											<string>{{0, 0}, {444, 564}}</string>
+											<string>{{444, 0}, {737, 564}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -722,10 +723,10 @@
 										<string>Value</string>
 										<real>85</real>
 										<string>Summary</string>
-										<real>235</real>
+										<real>88</real>
 									</array>
 									<key>Frame</key>
-									<string>{{0, 281}, {591, 283}}</string>
+									<string>{{0, 312}, {444, 252}}</string>
 									<key>RubberWindowFrame</key>
 									<string>153 139 1181 605 0 0 1440 878 </string>
 								</dict>
@@ -925,7 +926,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

@@ -99,19 +99,20 @@ private:
 	StockAccount * local[MAXACCOUNTS];
 };
 
-class StockHoldingSkeleton {
+class StockSkeleton {
 public:
-	RemoteObjRef NewRemoteRef (StockHolding * localobj);
+	StockSkeleton() {nextid = 0;};
+	RemoteObjRef NewRemoteRef (Stock * localobj);
 	string invokelocal (char * buf);
 private:
 	int nextid;
-	StockHolding * local[NUMSTOCKS*MAXACCOUNTS];
+	Stock * local[NUMSTOCKS*MAXACCOUNTS];
 };
 
 //Create a global variable for skeletons
 extern StockServantSkeleton * ssskel;
 extern StockAccountSkeleton * saskel;
-extern StockHoldingSkeleton * shskel;
+extern StockSkeleton * stskel;
 
 
 #endif

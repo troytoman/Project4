@@ -21,7 +21,7 @@ public:
 	StockAccount *	createStockAccount(string name, string password, string bank);
 	StockAccount *	getStockAccount(string name, string password);
 	int				closeStockAccount(string n, string p);
-	
+	Stock *			getStock (string stocksymbol);
 private:
 	// List of stock accounts
 	StockAccount salist[MAXACCOUNTS];

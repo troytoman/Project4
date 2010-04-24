@@ -15,7 +15,7 @@ string NameServerHostName;
 //Global pointers for skeletons
 StockServantSkeleton * ssskel;
 StockAccountSkeleton * saskel;
-StockHoldingSkeleton * shskel;
+StockSkeleton * stskel;
 
 //Instantiate the Remote Object Module
 RemoteObjModule rom;
@@ -39,7 +39,7 @@ int main (int argc, char * const argv[]) {
 
 	char hname[25];
 	StockAccountSkeleton sak;
-	StockHoldingSkeleton shk;
+	StockSkeleton stk;
 	
     //Get hostname
 	gethostname(hname, 25);
@@ -54,7 +54,7 @@ int main (int argc, char * const argv[]) {
 	StockServantSkeleton ssk(&ss);
 	ssskel = &ssk;
 	saskel = &sak;
-	shskel = &shk;
+	stskel = &stk;
 	
 	//Start a thread that runs the MarketPricing app
 	pthread_create(&tid, NULL, MarketPricing, &sm);

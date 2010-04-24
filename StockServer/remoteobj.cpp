@@ -164,7 +164,7 @@ void * dispatcher(void * parm)
             returnstr = saskel->invokelocal(buf);
             break;
 		case Stockcid:
-            returnstr = shskel->invokelocal(buf);
+            returnstr = stskel->invokelocal(buf);
 			break;
 	}
 	
@@ -326,7 +326,6 @@ string StockServantSkeleton::invokelocal(char * buf) {
 		}
 
 	} else if (methodid=='3') { //Close Account
-		cout << "In closeAccount" << endl;
 		
 		string str(buf);
 		
@@ -340,9 +339,26 @@ string StockServantSkeleton::invokelocal(char * buf) {
 		int i = local->closeStockAccount(name, password);
 		s << i;
 		return (s.str());
-	} else {
-		return "0";
-	};
+	} else if (methodid=='4') {
+		string str(buf);
+		
+		string stocksymbol = str.substr(6);
+		
+		Stock * st = local->getStock(stocksymbol);
+		
+		//Get a remoteobjref for the result
+		if (!st) {
+			return "!Stock not found!";
+		} else {
+			RemoteObjRef newremref = stskel->NewRemoteRef(st);
+			//Marshal result - just return the remote reference
+			return (newremref.marshall());
+		}
+		
+	}
+	
+	return "0";
+
 };
 
 // StockAccount Skeleton - invokelocal method
@@ -426,15 +442,14 @@ RemoteObjRef StockAccountSkeleton::NewRemoteRef (StockAccount * localobj) {
 };
 
 
-// StockHoldingSkeleton - invokelocal method
+// StockSkeleton - invokelocal method
 // - Unmarshall the data in the buffer
 // - Invoke the method on the local object
 // - Marshall the data inthe returnbuffer
-string StockHoldingSkeleton::invokelocal(char * buf) {
+string StockSkeleton::invokelocal(char * buf) {
 	int oid;
 	char oidstr[5];
 	string retstr;
-	float price;
 	
 	memset(oidstr, '\0', 5);
 	
@@ -446,8 +461,7 @@ string StockHoldingSkeleton::invokelocal(char * buf) {
 	char methodid = buf[5]; //Unmarshall the methodid
 	
 	if (methodid=='1') { //Get stock price
-		price = local[oid]->Price();	
-		retstr = price;
+		retstr = local[oid]->view();	
 	} 
 	return retstr;
 };
@@ -455,9 +469,9 @@ string StockHoldingSkeleton::invokelocal(char * buf) {
 // StockAccount Skeleton - NewRemoteRef
 // Create a new remote reference for a local object
 // Add the local object pointer to the list of objects
-RemoteObjRef StockHoldingSkeleton::NewRemoteRef (StockHolding * localobj) {
+RemoteObjRef StockSkeleton::NewRemoteRef (Stock * localobj) {
 	
-	if (nextid = MAXACCOUNTS*NUMSTOCKS) {
+	if (nextid == MAXACCOUNTS*NUMSTOCKS) {
 		perror("out of accounts");
 		RemoteObjRef ref ('0', 0);
 		return(ref);

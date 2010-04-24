@@ -51,3 +51,21 @@ int StockServantProxy::closeStockAccount ( string name, string pass) {
 	
 	return atoi(commresult.c_str());
 };
+
+StockProxy StockServantProxy::getStock (string s) {
+	//Marshall the remote object call
+	string marshall = '4' + s;
+	
+	//Call comms function
+	string commresult = rom.comm (remref, marshall);
+	
+	if (commresult[1] == '1') {
+		cout << endl << endl << commresult << endl << endl;
+	}
+	
+	//Unmarshall the results
+	RemoteObjRef newref(commresult);
+	StockProxy stock(newref);
+	return stock;
+};
+
