@@ -12,14 +12,51 @@
 string StockAccount::viewAccount() {
 	stringstream retstr;
 	
-	retstr << "Name: " << name << " Balance: " << cashbalance;
+	retstr << "Name: " << name << " Cash Balance: " << cashbalance << endl;
+	
+	for (int i=0; i<NUMSTOCKS; i++) {
+		if (stocks[i].stocksymbol() != "NULL") {
+			retstr << stocks[i].view() << endl;
+		}
+	}
 	
 	return retstr.str();
 };
 
-//void buyStock(Stock s, int numshares);
-//void sellStock(Stock s, int numshares);
-//void Transfer(int type, float amount);
+string StockAccount::buyStock(string s, int numshares) {
+	for (int i=0; i<NUMSTOCKS; i++) {
+		if (stocks[i].stocksymbol() == "NULL") {
+			//Find the stock and set pointer
+			if (!stocks[i].setStock(s)) {
+				stocks[i].setStock("NULL");
+				return "Stock not found.";
+			}
+		}
+		if (stocks[i].stocksymbol() == s) {
+			float transaction = numshares * stocks[i].Price();
+			if (transaction > cashbalance) {
+				return "Not enough cash.";
+			} else {
+				cashbalance -= transaction;
+				stocks[i].Buy(numshares);
+				return "OK";
+			}
+		} 
+	}
+	return "Stock not found.";
+};
+
+string StockAccount::sellStock(string s, int numshares) {
+	for (int i=0; i<NUMSTOCKS; i++) {
+		if (stocks[i].stocksymbol() == s) {
+			cashbalance += numshares * stocks[i].Price();
+			stocks[i].Sell(numshares);
+			return "OK";
+		}
+	}
+	return "Stock not found.";
+};
+
 
 //Fill in the values for a new account
 void StockAccount::addinfo (string nam, string pwd, string bnk) {

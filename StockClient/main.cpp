@@ -14,6 +14,8 @@ StockServantProxy stockserv;
 int manageaccount(StockAccountProxy stockacct) {	
 	int choice;
 	char type;
+	string s;
+	int shares;
 	
 	while (1) {
 		
@@ -28,9 +30,25 @@ int manageaccount(StockAccountProxy stockacct) {
 		cin >> choice;
 		
 		if (choice == 1) {  //View account
+			
 			stockacct.viewAccount();
+			
 		} else if (choice == 2) { //Buy Stock
+			
+			cout << "Symbol: ";
+			cin >> s;
+			cout << "Number of shares: ";
+			cin >> shares;
+			cout << stockacct.buyStock(s, shares) << endl;
+			
 		} else if (choice == 3) { //Sell Stock 
+			
+			cout << "Symbol: ";
+			cin >> s;
+			cout << "Number of shares: ";
+			cin >> shares;
+			cout << stockacct.sellStock(s, shares) << endl;
+						
 		} else if (choice == 4) { //Bank Transfer
 			float amount;
 			
@@ -50,7 +68,7 @@ int manageaccount(StockAccountProxy stockacct) {
 	}
 }
 
-int userinterface () {
+void userinterface () {
 	int logoff, choice;
 	string name, bank;
 	StockServantProxy stockserver;

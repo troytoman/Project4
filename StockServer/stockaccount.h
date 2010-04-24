@@ -25,8 +25,8 @@ const int MAXACCOUNTS = 50;
 class StockAccount {	
 public:
 	string viewAccount();
-	void buyStock(Stock s, int numshares);
-	void sellStock(Stock s, int numshares);
+	string buyStock(string s, int numshares);
+	string sellStock(string s, int numshares);
 	void Transfer(char type, float amount);
 	void addinfo(string nam, string pwd, string bnk);
 	int	 checkAccount(string n, string pwd);

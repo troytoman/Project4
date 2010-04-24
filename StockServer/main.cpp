@@ -20,6 +20,11 @@ StockHoldingSkeleton * shskel;
 //Instantiate the Remote Object Module
 RemoteObjModule rom;
 
+//Create global StockMarket
+StockMarket sm;
+
+
+
 void * MarketPricing( void * market ){ //Runs in a thread and handles price changes
 	
 	StockMarket * smkt = (StockMarket *) market;
@@ -50,9 +55,6 @@ int main (int argc, char * const argv[]) {
 	ssskel = &ssk;
 	saskel = &sak;
 	shskel = &shk;
-	
-	//Create StockMarket
-	StockMarket sm;
 	
 	//Start a thread that runs the MarketPricing app
 	pthread_create(&tid, NULL, MarketPricing, &sm);

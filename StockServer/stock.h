@@ -15,7 +15,10 @@
 #include <string>
 using namespace std;
 
+#include <sstream>
+
 const int NUMSTOCKS = 25;
+
 
 class Stock {
 public:
@@ -23,22 +26,11 @@ public:
 	float getPrice() {return (price); };
 	void updatePrice();
 	string getsymbol() {return stocksymbol;};
+	string view();
 private:
 	float price;
 	string stocksymbol;
 	string companyname;
-};
-
-// The StockHolding class represents a stock within a stock account. 
-class StockHolding {
-public:
-	StockHolding();
-	int Sell(int numshares);
-	int Buy(int numshares);
-	float Price() { return s->getPrice();};
-private:
-	Stock * s;
-	int shares;
 };
 
 class StockMarket {
@@ -47,8 +39,26 @@ public:
 	Stock * getStock(string stocksymbol); //Provides a pointer to the stock object
 	void gopricing(); //Runs in a thread and handles price changes
 private:
-	Stock stocklist[NUMSTOCKS];
+	Stock stocklist[NUMSTOCKS+1];
 };
+
+extern StockMarket sm;
+
+// The StockHolding class represents a stock within a stock account. 
+class StockHolding {
+public:
+	StockHolding();
+	int Sell(int numshares);
+	int Buy(int numshares);
+	float Price() { return s->getPrice();};
+	string stocksymbol() { return s->getsymbol(); };
+	int setStock(string stocksymbol);
+	string view();
+private:
+	Stock * s;
+	int shares;
+};
+
 	
 
 #endif

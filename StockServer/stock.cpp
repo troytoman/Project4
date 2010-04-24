@@ -18,18 +18,24 @@ void Stock::createlisting (string ssymbol, float sprice, string coname) {
 void Stock::updatePrice () {
 	float r = (float)rand()/(float)RAND_MAX;
 	
-	cout << stocksymbol << ": " << price << endl;
+//    if (stocksymbol == "AAPL")
+//		cout << stocksymbol << ": " << price << endl;
 
-	if(rand() % 2) {
-		price = price - (price*r/100.0);
+	if((rand() % 2) && price > 1.0) {
+		price = price - (price*r/10000.0);
 	} else {
-		price = price + (price*r/100.0);
+		price = price + (price*r/10000.0);
 	}
-    cout << stocksymbol << ": " << price << endl << endl;
+	
+//    if (stocksymbol == "AAPL")
+//		cout << stocksymbol << ": " << price << endl;
 }
+
 // Stock constructor allocates the stock and starts a thread to update the price
 StockHolding::StockHolding () {
+	
 	shares = 0;
+	s = sm.getStock("NULL");
 };
 
 // Change the amount of shares in the Stock by numshares. If there are not enough
@@ -48,6 +54,33 @@ int StockHolding::Buy (int numshares) {
 	shares += numshares;
 	return shares;
 };
+
+int StockHolding::setStock(string stocksymbol) { 
+	s = sm.getStock(stocksymbol); 
+	if (s==0) {
+		return 0;
+	} else {
+		return 1;
+	} 
+};
+
+
+string Stock:: view() {
+	stringstream retstr;
+	
+	retstr << "Stock: " << companyname << "( " << stocksymbol << " ) Price: " << price;
+	
+	return retstr.str();
+}
+
+string StockHolding::view() {
+	stringstream retstr;
+	
+	retstr << s->view() << " Shares: " << shares;
+	
+	return retstr.str();
+}
+
 
 void StockMarket::gopricing(){ //Handles price changes
 		
@@ -72,11 +105,12 @@ StockMarket::StockMarket(){ //Starts up the StockMarket and initiates the pricin
 		stockfile >> coname;
 		stocklist[i].createlisting(ssym, openprice, coname);
 	}
+	stocklist[NUMSTOCKS].createlisting("NULL", 0, "NULL");
 
 };
 
 Stock * StockMarket::getStock(string stsym) { //Provides a pointer to the stock object
-	for (int i=0; i<NUMSTOCKS; i++) {
+	for (int i=0; i<=NUMSTOCKS; i++) {
 		if (stsym == stocklist[i].getsymbol()) {
 			return &stocklist[i];
 		}

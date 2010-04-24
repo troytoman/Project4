@@ -16,7 +16,7 @@ StockAccountProxy::StockAccountProxy( RemoteObjRef newref ) {
 
 int StockAccountProxy::viewAccount() {
 	//Marshall the remote object call
-	string marshall = "1";
+	string marshall = "1";  //Set the method id 1 = ViewAccount
 	
 	//Call comms function
 	string commresult = rom.comm (remref, marshall);
@@ -26,12 +26,34 @@ int StockAccountProxy::viewAccount() {
 	return 1;
 };
 
+string StockAccountProxy::buyStock(string s, int numshares) {
+	stringstream parms;
+	
+	parms << s << "#" << numshares;
+	
+	string marshall = "2" + parms.str(); //Set the method id 2 = BuyStock
+	
+	return (rom.comm(remref, marshall));
+};
+
+			string StockAccountProxy::sellStock(string s, int numshares) {
+
+	stringstream parms;
+	
+	parms << s << "#" << numshares;
+	
+	string marshall = "3" + parms.str(); //Set the method id 3 = SellStock
+	
+	return (rom.comm(remref, marshall));
+};
+
+
 void StockAccountProxy::Transfer (char type, float amount) {
 	stringstream parms;
 	
 	//marshall the remote call
 	parms << type << " " << amount << " ";
-	string marshall = "4" + parms.str();
+	string marshall = "4" + parms.str(); //Set the method id 4 = Transfer
 	
 	string commresult = rom.comm (remref, marshall);
 }

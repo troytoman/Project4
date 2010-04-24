@@ -22,10 +22,9 @@ public:
 	StockAccountProxy () {};
 	StockAccountProxy( RemoteObjRef newref );
 	int viewAccount();
-	void buyStock(StockProxy s, int numshares);
-	void sellStock(StockProxy s, int numshares);
+	string buyStock(string s, int numshares);
+	string sellStock(string s, int numshares);
 	void Transfer(char type, float amount);
-	void addinfo(string nam, string pwd, string bnk);
 private:
 	RemoteObjRef remref;
 };

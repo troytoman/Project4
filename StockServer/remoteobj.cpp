@@ -304,7 +304,6 @@ string StockServantSkeleton::invokelocal(char * buf) {
 		return (newremref.marshall());
 		
 	} else if (methodid=='2') { //Get Account
-		cout << "In getAccount" << endl;
 		
 		string str(buf);
 		
@@ -368,9 +367,34 @@ string StockAccountSkeleton::invokelocal(char * buf) {
 		return local[oid]->viewAccount();		
 		
 	} else if (methodid=='2') { //buy stock
-		// 	RemoteObjRef	getStockAccount(string name, string password);
+		//string buyStock(string s, int numshares);
+		string str(buf);
+		
+		int namelength = str.find_first_of('#');
+		
+		string stocksymbol = str.substr(6,namelength-6); //Unmarshall stock symbol
+		string shares = str.substr(namelength+1);	//Unmarshall number of shares	
+		int numshares = atoi(shares.c_str()); //Convert to integer
+		
+		cout << "Symbol: " << stocksymbol << " Num: " << numshares << endl;
+		
+		return (local[oid]->buyStock(stocksymbol, numshares)); //Call method
+		
+		
 	} else if (methodid=='3') { //sell stock 
-		// 	int				closeStockAccount(RemoteObjRef account);
+		//string sellStock(string s, int numshares);
+		string str(buf);
+		
+		int namelength = str.find_first_of('#');
+		
+		string stocksymbol = str.substr(6,namelength-6); //Unmarshall stock symbol
+		string shares = str.substr(namelength+1);	//Unmarshall number of shares	
+		int numshares = atoi(shares.c_str()); //Convert to integer
+		
+		cout << "Symbol: " << stocksymbol << " Num: " << numshares << endl;
+		
+		return (local[oid]->sellStock(stocksymbol, numshares)); //Call method
+		
 	} else if (methodid=='4') { //transfer cash
 		
 		float amt = atof(&buf[8]);
