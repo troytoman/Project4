@@ -1,0 +1,154 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 26906AAF11839475007B2808 /* BankServer */;
+		activeTarget = 8DD76F620486A84900D96B5E /* BankServer */;
+		addToTargets = (
+			8DD76F620486A84900D96B5E /* BankServer */,
+		);
+		codeSenseManager = 26906AB911839480007B2808 /* Code sense */;
+		executables = (
+			26906AAF11839475007B2808 /* BankServer */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 293836233;
+			PBXWorkspaceStateSaveDate = 293836233;
+		};
+		sourceControlManager = 26906AB811839480007B2808 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* main.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 585}}";
+			sepNavSelRange = "{782, 0}";
+			sepNavVisRange = "{462, 354}";
+		};
+	};
+	26906AAF11839475007B2808 /* BankServer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = BankServer;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	26906AB811839480007B2808 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	26906AB911839480007B2808 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	26906ABB118394A2007B2808 /* stockservantproxy.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 552}}";
+			sepNavSelRange = "{144, 0}";
+			sepNavVisRange = "{0, 146}";
+		};
+	};
+	26906ABF11839509007B2808 /* stockservantproxy.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 273}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 272}";
+		};
+	};
+	26906AC111839509007B2808 /* remoteobj.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 5330}}";
+			sepNavSelRange = "{10174, 0}";
+			sepNavVisRange = "{9382, 793}";
+		};
+	};
+	26906AC211839509007B2808 /* remoteobj.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {698, 1365}}";
+			sepNavSelRange = "{2244, 0}";
+			sepNavVisRange = "{1974, 394}";
+		};
+	};
+	26906AC511839509007B2808 /* bankaccount.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {537, 1417}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 298}";
+		};
+	};
+	26906AC611839509007B2808 /* bankaccount.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 598}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 910}";
+		};
+	};
+	26906AC811839509007B2808 /* bankservant.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1144}}";
+			sepNavSelRange = "{439, 0}";
+			sepNavVisRange = "{3, 1239}";
+		};
+	};
+	26906AC911839509007B2808 /* bankservant.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 572}}";
+			sepNavSelRange = "{501, 0}";
+			sepNavVisRange = "{0, 961}";
+		};
+	};
+	8DD76F620486A84900D96B5E /* BankServer */ = {
+		activeExec = 0;
+		executables = (
+			26906AAF11839475007B2808 /* BankServer */,
+		);
+	};
+}

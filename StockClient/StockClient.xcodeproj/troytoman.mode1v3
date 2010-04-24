@@ -313,7 +313,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>main.cpp</string>
+								<string>stockservantproxy.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -321,11 +321,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>main.cpp</string>
+										<string>stockservantproxy.cpp</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>26906A471183846A007B2808</string>
+										<string>26906AAB11839451007B2808</string>
 										<key>history</key>
 										<array>
 											<string>26BE7179117BDD9300DCC1CB</string>
@@ -342,8 +342,8 @@
 											<string>269069D31182CE23007B2808</string>
 											<string>26906A2A11838378007B2808</string>
 											<string>26906A2C11838378007B2808</string>
-											<string>26906A4111838412007B2808</string>
-											<string>26906A4211838412007B2808</string>
+											<string>26906AA911839451007B2808</string>
+											<string>26906AAA11839451007B2808</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -541,13 +541,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>26906A481183846A007B2808</string>
 		<string>26906A3D118383E7007B2808</string>
 		<string>26906A3E118383E7007B2808</string>
 		<string>26BE710B117BA31600DCC1CB</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/StockClient.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/StockClient.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 59 1440 819 0 0 1440 878 </string>
@@ -764,7 +763,7 @@
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
