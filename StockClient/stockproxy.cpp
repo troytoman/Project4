@@ -11,7 +11,6 @@
 
 StockProxy::StockProxy (RemoteObjRef newref) {
 	remref = newref;
-	cout << "New stock object created: " << remref.marshall() << endl;
 }
 
 string StockProxy::view() {
@@ -22,3 +21,13 @@ string StockProxy::view() {
 	//Call comms function
 	return rom.comm (remref, marshall);		
 }
+
+int StockProxy::check() {
+	if (remref.marshall()[0
+						  ] == '!') {
+		return 0;
+	} else {
+		return 1;
+	}
+
+};

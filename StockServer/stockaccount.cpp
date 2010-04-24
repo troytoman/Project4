@@ -9,6 +9,12 @@
 
 #include "stockaccount.h"
 
+StockAccount::StockAccount() {
+	pthread_mutex_init(&lock, NULL);
+};
+
+
+
 string StockAccount::viewAccount() {
 	stringstream retstr;
 	
@@ -28,7 +34,10 @@ string StockAccount::buyStock(string s, int numshares) {
 		if (stocks[i].stocksymbol() == "NULL") {
 			//Find the stock and set pointer
 			if (!stocks[i].setStock(s)) {
+				pthread_mutex_lock(&lock);
 				stocks[i].setStock("NULL");
+				pthread_mutex_unlock(&lock);
+
 				return "\nStock not found.\n";
 			}
 		}
@@ -37,8 +46,10 @@ string StockAccount::buyStock(string s, int numshares) {
 			if (transaction > cashbalance) {
 				return "\n!Not enough cash.!\n";
 			} else {
+				pthread_mutex_lock(&lock);
 				cashbalance -= transaction;
 				stocks[i].Buy(numshares);
+				pthread_mutex_unlock(&lock);
 				return "OK";
 			}
 		} 
@@ -49,13 +60,17 @@ string StockAccount::buyStock(string s, int numshares) {
 string StockAccount::sellStock(string s, int numshares) {
 	for (int i=0; i<NUMSTOCKS; i++) {
 		if (stocks[i].stocksymbol() == s) {	
+			
+			pthread_mutex_lock(&lock); //Lock to keep protect
+
 			if (stocks[i].Sell(numshares)) {
 				cashbalance += (numshares * stocks[i].Price());
+				pthread_mutex_unlock(&lock); //Unlock before return
 				return "OK";
 			} else {
+				pthread_mutex_unlock(&lock); //Unlock before return
 				return "\n!Not enough shares!\n";
 			}
-
 		}
 	}
 	return "\n!Stock not found.!\n";
@@ -77,6 +92,7 @@ int StockAccount::checkAccount (string n, string p) {
 }
 
 void StockAccount::Transfer (char type, float amount) {
+	pthread_mutex_lock(&lock);
 	if (type == '1') {  //1: Stock Account to Bank  2: Bank to Stock Account
 		if (cashbalance < amount) {
 			amount = cashbalance;
@@ -85,4 +101,5 @@ void StockAccount::Transfer (char type, float amount) {
 	} else {
 		cashbalance += amount;
 	}
+	pthread_mutex_unlock(&lock);
 }

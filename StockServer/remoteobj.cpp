@@ -294,8 +294,12 @@ string StockServantSkeleton::invokelocal(char * buf) {
 		
 		cout << "Name: " << name << " Pass: " << password << " Bank: " << bank << endl;
 		
-		result = local->createStockAccount(name, password, bank); //Call method
-		
+		try {
+			result = local->createStockAccount(name, password, bank); //Call method
+		}
+		catch (int n) {
+			return "!Account name already exists!";
+		}
 		//Get a remoteobjref for the result
 		RemoteObjRef newremref = saskel->NewRemoteRef(result);
 		

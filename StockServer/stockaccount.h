@@ -15,6 +15,8 @@
 using namespace std;
 #include <sstream>
 
+#include <pthread.h>
+
 #include "bankproxy.h"
 #include "stock.h"
 
@@ -24,18 +26,21 @@ const int MAXACCOUNTS = 50;
 // The StockAccount class keeps the account information and a list of stocks in an account.
 class StockAccount {	
 public:
+	StockAccount();
 	string viewAccount();
 	string buyStock(string s, int numshares);
 	string sellStock(string s, int numshares);
 	void Transfer(char type, float amount);
 	void addinfo(string nam, string pwd, string bnk);
 	int	 checkAccount(string n, string pwd);
+	string  getname() {return name;};
 private:
 	string name;
 	string password;
 	BankProxy bank;
 	float cashbalance;
 	StockHolding stocks[NUMSTOCKS];
+	pthread_mutex_t lock;
 };
 
 #endif

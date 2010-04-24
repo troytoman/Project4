@@ -18,13 +18,25 @@ StockServant::StockServant () {
 // The createStockAccount method will create a new instance of a StockAccount object and add it to the list
 // of accounts. It will create a RemObjRef that it will store in the list and return as
 // the result of the method call.
-StockAccount * StockServant::createStockAccount(string name, string password, string bank) {
+StockAccount * StockServant::createStockAccount(string name, string password, string bank) throw (int) {
+	pthread_mutex_t lock;
+
 	// Create new StockAccount object
 	cout << "In stockservant::create " << endl;
+
+	pthread_mutex_lock(&lock); //Lock to keep protect
+	
+	for (int i=0; i<top; i++) {
+		if (salist[i].getname() == name) {
+			throw 1;
+		}
+	}
 	
 	salist[top].addinfo ( name, password, bank);
 	
 	top++;
+	
+	pthread_mutex_lock(&lock); //Lock to keep protect
 	
 	// Return ROR
 	return &salist[top-1];

@@ -97,15 +97,21 @@ StockMarket::StockMarket(){ //Starts up the StockMarket and initiates the pricin
 	string ssym, coname;
 	float openprice;
 
-	
-	//Read the stock list and get the initial prices
-	for (int i=0; i<NUMSTOCKS; i++) {
-		stockfile >> ssym;
-		stockfile >> openprice;
-		stockfile >> coname;
-		stocklist[i].createlisting(ssym, openprice, coname);
+	if (stockfile.is_open()) { 
+		//Read the stock list and get the initial prices
+		for (int i=0; i<NUMSTOCKS; i++) {
+			stockfile >> ssym;
+			stockfile >> openprice;
+			stockfile >> coname;
+			stocklist[i].createlisting(ssym, openprice, coname);
+			cout <<	"Created company name: " << coname << endl;
+		}
+	} else {
+		cout << "stockfile not found\n";
 	}
+
 	stocklist[NUMSTOCKS].createlisting("NULL", 0, "NULL");
+	stockfile.close();
 
 };
 

@@ -20,8 +20,8 @@ using namespace std;
 class StockServantProxy {
 public:
 	StockServantProxy ();
-	StockAccountProxy createStockAccount (string name, string pass, string bank);
-	StockAccountProxy getStockAccount (string name, string pass);
+	StockAccountProxy createStockAccount (string name, string pass, string bank) throw (string);
+	StockAccountProxy getStockAccount (string name, string pass) throw (int);
 	int	closeStockAccount (string name, string pass);
 	StockProxy getStock (string s);
 private:

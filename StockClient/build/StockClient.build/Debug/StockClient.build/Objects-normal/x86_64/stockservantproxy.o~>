@@ -1,0 +1,2 @@
+/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockservantproxy.cpp:34: error: declaration of 'StockAccountProxy StockServantProxy::getStockAccount(std::string, std::string) throw (int)' throws different exceptions
+/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockClient/stockservantproxy.h:24: error: than previous declaration 'StockAccountProxy StockServantProxy::getStockAccount(std::string, std::string)'

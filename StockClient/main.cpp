@@ -71,8 +71,14 @@ int manageaccount(StockAccountProxy stockacct) {
 			cout << "Symbol: ";
 			cin >> s;
 			
-			StockProxy check = stockserver.getStock(s);
-			cout << endl << check.view() << endl << endl;
+			StockProxy stk = stockserver.getStock(s); //Get the stock obj;
+			
+			if (stk.check()) {
+			    cout << endl << stk.view() << endl << endl;
+			} else {
+				cout << endl << "Stock not found!" << endl << endl;
+			}
+
 		}
 	}
 }
@@ -84,6 +90,7 @@ void userinterface () {
 
 	
 	while (logoff == 0) {
+		cout << endl << endl << endl;
 		cout << "Please choose one of the following options:" << endl;
 		cout << "1. Create account" << endl;
 		cout << "2. Get account" << endl;
@@ -108,8 +115,13 @@ void userinterface () {
 			}
 			cout << "Bank:";
 			cin >> bank;
-			stockaccount = stockserver.createStockAccount (name, pass1, bank);
-			manageaccount(stockaccount);
+			try {
+				stockaccount = stockserver.createStockAccount (name, pass1, bank);
+				manageaccount(stockaccount);
+			}
+			catch (string output) {
+				cout << endl << endl << output << endl << endl;
+			}
 		} else if (choice == 2) { //Get existing account
 			string pass;
 			
@@ -118,9 +130,17 @@ void userinterface () {
 			cin >> name;
 			cout << "Password:";
 			cin >> pass;
-		    stockaccount = stockserver.getStockAccount(name, pass);
-			manageaccount(stockaccount);
-			
+			try {
+				stockaccount = stockserver.getStockAccount(name, pass);
+				manageaccount(stockaccount);
+			}
+			catch (int e) {
+				if (e == 0) {
+					cout << "Account not found\n";
+				} else {
+					cout << "Error getting account\n";
+				}
+			}
 		} else if (choice == 3) { //Close Account
 			string pass;
 			

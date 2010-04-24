@@ -21,6 +21,7 @@ class StockProxy {
 public:
 	StockProxy(RemoteObjRef newref);
 	string view();
+	int check();
 private:
 	RemoteObjRef remref;
 };

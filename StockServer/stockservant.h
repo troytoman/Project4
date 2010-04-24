@@ -18,7 +18,7 @@
 class StockServant {
 public: 
 					StockServant();
-	StockAccount *	createStockAccount(string name, string password, string bank);
+	StockAccount *	createStockAccount(string name, string password, string bank) throw (int);
 	StockAccount *	getStockAccount(string name, string password);
 	int				closeStockAccount(string n, string p);
 	Stock *			getStock (string stocksymbol);
