@@ -39,6 +39,7 @@ using namespace std;
 //Establish default port numbers
 #define NSSOCKET "22311"
 #define STSRVSOCKET "22310"
+#define BANKSOCKET "22312"
 
 const int MAXRECV = 500;
 const int BACKLOG = 10;

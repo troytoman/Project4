@@ -37,8 +37,9 @@ using namespace std;
 #include <pthread.h>
 
 //Establish default port numbers
+#define STOCKSOCKET "22310"
 #define NSSOCKET "22311"
-#define BANKSRVSOCKET "22310"
+#define BANKSRVSOCKET "22312"
 
 const int MAXRECV = 500;
 const int BACKLOG = 10;

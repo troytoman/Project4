@@ -1,7 +1,7 @@
 TBankServer
 v7
 r0
-t293841106.430510
+t293904641.128639
 cCheck dependencies
 cCompileC build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/main.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 cCompileC build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/stockservantproxy.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/stockservantproxy.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
@@ -74,7 +74,7 @@ N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/ba
 c000000004BD36F7100000000000003E4
 t1272147825
 s996
-i"stockaccount.h"
+i"bankaccount.h"
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.h
 c000000004BD36F310000000000000306
@@ -90,7 +90,7 @@ N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/ba
 c000000004BD370ED0000000000000BEE
 t1272148205
 s3054
-i"stockservant.h"
+i"bankservant.h"
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.h
 c000000004BD3715100000000000004FD
@@ -110,36 +110,36 @@ t1272146629
 s792
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/bankaccount.o
-t1272147826
-s255688
+t1272207435
+s80192
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/bankservant.o
-t1272148306
-s257780
+t1272207435
+s99908
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/bankservantproxy.o
 t2
 s0
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/main.o
-t1272148306
-s133500
+t1272208055
+s77004
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/remoteobj.o
-t1272148306
-s393224
+t1272211801
+s125660
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/skeleton.o
 t2
 s0
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/stockservantproxy.o
-t1272146796
+t1272207434
 s1468
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug/BankServer
-t1272148306
-s212808
+t1272211841
+s62048
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp
 c000000004BD3705A0000000000000319
@@ -151,15 +151,15 @@ i<pthread.h>
 i"remoteobj.h"
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp
-c000000004BD3700A000000000000288E
-t1272147978
-s10382
+c000000004BD4698100000000000028E4
+t1272211841
+s10468
 i"remoteobj.h"
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.h
-c000000004BD36AC50000000000000940
-t1272146629
-s2368
+c000000004BD45AB6000000000000095C
+t1272208054
+s2396
 i<iostream>
 i<fstream>
 i<string>
@@ -205,11 +205,11 @@ i<string>
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies293841105#293841105#0(0"0(0#1#0"4300885448#0"0#
+lSLF07#2@18"Check dependencies293904641#293904641#0(0"0(0#1#0"4300911832#0"0#
 
 CCompileC build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/bankaccount.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-s293840625.708296
-e293840626.281844
+s293900234.969135
+e293900235.387952
 r1
 xCompileC
 xbuild/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/bankaccount.o
@@ -218,11 +218,11 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@100"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp293840625#293840626#0(0"0(0#0#92"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp4300885448#1846"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/bankaccount.o"0#
+lSLF07#2@100"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp293900234#293900235#0(0"2(22@111"The option '-D_GLIBCXX_DEBUG_PEDANTIC=1' should not be passed to GCC 4.2 and has been automatically suppressed.293900180#18446744073709551615#0#0(1@0"0(22@102"The option '-D_GLIBCXX_DEBUG=1' should not be passed to GCC 4.2 and has been automatically suppressed.293900180#18446744073709551615#0#0(1@0"0(0#0#92"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp4300911832#1799"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/bankaccount.o"0#
 
 CCompileC build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/bankservant.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-s293841105.535632
-e293841106.211442
+s293900234.970453
+e293900235.425539
 r1
 xCompileC
 xbuild/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/bankservant.o
@@ -231,14 +231,14 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@100"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp293841105#293841106#0(0"0(0#0#92"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp4300885448#1846"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/bankservant.o"0#
+lSLF07#2@100"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp293900234#293900235#0(0"2(22@111"The option '-D_GLIBCXX_DEBUG_PEDANTIC=1' should not be passed to GCC 4.2 and has been automatically suppressed.293900180#18446744073709551615#0#0(1@0"0(22@102"The option '-D_GLIBCXX_DEBUG=1' should not be passed to GCC 4.2 and has been automatically suppressed.293900180#18446744073709551615#0#0(1@0"0(0#0#92"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp4300911832#1799"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/bankservant.o"0#
 
 CCompileC build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/bankservantproxy.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservantproxy.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/main.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-s293841105.533485
-e293841106.049391
+s293900854.958336
+e293900855.335682
 r1
 xCompileC
 xbuild/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/main.o
@@ -247,11 +247,11 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@93"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp293841105#293841106#0(0"0(0#0#85"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp4300885448#1832"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/main.o"0#
+lSLF07#2@93"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp293900854#293900855#0(0"2(22@111"The option '-D_GLIBCXX_DEBUG_PEDANTIC=1' should not be passed to GCC 4.2 and has been automatically suppressed.293900816#18446744073709551615#0#0(1@0"0(22@102"The option '-D_GLIBCXX_DEBUG=1' should not be passed to GCC 4.2 and has been automatically suppressed.293900816#18446744073709551615#0#0(1@0"0(0#0#85"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp4300911832#1785"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/main.o"0#
 
 CCompileC build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/remoteobj.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-s293841105.534457
-e293841106.398581
+s293904641.102251
+e293904641.103323
 r1
 xCompileC
 xbuild/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/remoteobj.o
@@ -260,14 +260,14 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@98"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp293841105#293841106#0(0"0(0#0#90"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp4300885448#1842"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/remoteobj.o"0#
+lSLF07#2@98"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp293904641#293904641#0(0"2(22@111"The option '-D_GLIBCXX_DEBUG_PEDANTIC=1' should not be passed to GCC 4.2 and has been automatically suppressed.293904391#18446744073709551615#0#0(1@0"0(22@102"The option '-D_GLIBCXX_DEBUG=1' should not be passed to GCC 4.2 and has been automatically suppressed.293904391#18446744073709551615#0#0(1@0"0(0#0#90"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp4300911832#1795"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/remoteobj.o"0#
 
 CCompileC build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/skeleton.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/skeleton.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/stockservantproxy.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/stockservantproxy.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-s293839596.044850
-e293839596.074774
+s293900234.966749
+e293900234.997467
 r1
 xCompileC
 xbuild/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/stockservantproxy.o
@@ -276,15 +276,15 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@106"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/stockservantproxy.cpp293839596#293839596#0(0"0(0#0#98"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/stockservantproxy.cpp4300885448#1858"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/stockservantproxy.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/stockservantproxy.o"0#
+lSLF07#2@106"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/stockservantproxy.cpp293900234#293900235#0(0"2(22@111"The option '-D_GLIBCXX_DEBUG_PEDANTIC=1' should not be passed to GCC 4.2 and has been automatically suppressed.293900180#18446744073709551615#0#0(1@0"0(22@102"The option '-D_GLIBCXX_DEBUG=1' should not be passed to GCC 4.2 and has been automatically suppressed.293900180#18446744073709551615#0#0(1@0"0(0#0#98"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/stockservantproxy.cpp7669474379154287616#1811"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/BankServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/stockservantproxy.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/stockservantproxy.o"0#
 
 CLd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug/BankServer" normal x86_64
-s293841106.398668
-e293841106.430462
+s293904641.103670
+e293904641.128583
 r1
 xLd
 x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug/BankServer
 xnormal
 xx86_64
-lSLF07#2@104"Link /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug/BankServer293841106#293841106#0(0"0(0#0#0"4300885448#710"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug" -filelist "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/BankServer.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug/BankServer"0#
+lSLF07#2@104"Link /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug/BankServer293904641#293904641#0(0"0(0#0#0"4300911832#710"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug" -filelist "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Debug/BankServer.build/Objects-normal/x86_64/BankServer.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Debug/BankServer"0#
 

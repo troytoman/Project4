@@ -103,13 +103,13 @@ int RemoteObjModule::Register (string name, RemoteObjRef ref) {
     // create the socket
 	if ((sockfd = socket(servinfo->ai_family, servinfo->ai_socktype,
 						 servinfo->ai_protocol)) == -1) {
-		perror("Client: Socket error");
+		perror("BankServer: Socket error");
 	}
 	
 	// make the connection
 	if (connect(sockfd, servinfo->ai_addr, servinfo->ai_addrlen) == -1) {
 		close(sockfd);
-		perror("Client: Connect error");
+		perror("BankServer: Connect error");
 	}
 	
 	
@@ -309,6 +309,7 @@ string BankServantSkeleton::invokelocal(char * buf) {
 		string str(buf);
 		
 		namelength = str.find_first_of('#');
+		passlength = str.find_first_of('?');
 		
 		string acctname = str.substr(6,namelength-6); //Unmarshall name
 		string password = str.substr(namelength+1, passlength-namelength-1);	//Unmarshall password	   
@@ -332,6 +333,7 @@ string BankServantSkeleton::invokelocal(char * buf) {
 		string str(buf);
 		
 		namelength = str.find_first_of('#');
+		passlength = str.find_first_of('?');
 		
 		string acctname = str.substr(6,namelength-6); //Unmarshall name
 		string password = str.substr(namelength+1, passlength-namelength-1);	//Unmarshall password	   

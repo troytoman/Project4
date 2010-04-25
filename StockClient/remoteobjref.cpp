@@ -67,19 +67,6 @@ RemoteObjModule::RemoteObjModule () {
 	cout << "Nameserver not found in config.txt" << endl;
 };
 
-//Register method for RemoteObjModule
-int RemoteObjModule::Register (string name, void* localobj) {
-	//Create a remote objec reference
-	//Set IP
-	//Set Socket
-	
-	//Marshall the remoteobject reference
-	
-	//Open a socket to the nameserver
-	
-	//Pass the name and the remoteobject reference to the nameserver
-	
-};
 
 // get sockaddr, IPv4 or IPv6:
 void *get_in_addr(struct sockaddr *sa)

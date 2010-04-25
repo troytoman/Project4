@@ -36,7 +36,6 @@ using namespace std;
 
 
 //Establish default port numbers
-#define REMOBJSOCKET "22310"
 #define NSSOCKET "22311"
 
 const int MAXRECV = 500;
