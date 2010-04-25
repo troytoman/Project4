@@ -39,12 +39,14 @@ StockHolding::StockHolding () {
 };
 
 // Change the amount of shares in the Stock by numshares. If there are not enough
-// shares to sell that many, return -1.
+// shares to sell that many, return.
 int StockHolding::Sell (int numshares) {
-	if (numshares > shares) return(0);
+	if (numshares > shares) { 
+		return(0);
+	}
 	else {
 		shares -= numshares;
-		return(shares);
+		return(numshares);
 	}
 };
 

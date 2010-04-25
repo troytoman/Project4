@@ -33,21 +33,26 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 293910374;
-			PBXWorkspaceStateSaveDate = 293910374;
+			PBXPerProjectTemplateStateSaveDate = 293915859;
+			PBXWorkspaceStateSaveDate = 293915859;
 		};
 		perUserProjectItems = {
-			267AEAC31184913400623423 = 267AEAC31184913400623423 /* PBXTextBookmark */;
-			267AEAC51184913400623423 = 267AEAC51184913400623423 /* PBXTextBookmark */;
 			267AEB5A1184A84700623423 = 267AEB5A1184A84700623423 /* PBXTextBookmark */;
 			267AEB5B1184A84700623423 = 267AEB5B1184A84700623423 /* PBXTextBookmark */;
-			267AEC1F1184B76100623423 = 267AEC1F1184B76100623423 /* PBXTextBookmark */;
-			267AEC201184B76100623423 = 267AEC201184B76100623423 /* PBXTextBookmark */;
 			267AEC211184B76100623423 = 267AEC211184B76100623423 /* PBXTextBookmark */;
-			267AEC221184B76100623423 = 267AEC221184B76100623423 /* PBXTextBookmark */;
-			267AEC231184B76100623423 = 267AEC231184B76100623423 /* PBXTextBookmark */;
-			267AEC311184B78100623423 /* PBXTextBookmark */ = 267AEC311184B78100623423 /* PBXTextBookmark */;
 			26965F961183AA6800970693 = 26965F961183AA6800970693 /* PBXTextBookmark */;
+			26A64B511184CCCB005C38AB = 26A64B511184CCCB005C38AB /* PBXTextBookmark */;
+			26A64B521184CCCB005C38AB = 26A64B521184CCCB005C38AB /* PBXTextBookmark */;
+			26A64B531184CCCB005C38AB = 26A64B531184CCCB005C38AB /* PBXTextBookmark */;
+			26A64B541184CCCB005C38AB = 26A64B541184CCCB005C38AB /* PBXTextBookmark */;
+			26A64B551184CCCB005C38AB = 26A64B551184CCCB005C38AB /* PBXTextBookmark */;
+			26A64B561184CCCB005C38AB = 26A64B561184CCCB005C38AB /* PBXTextBookmark */;
+			26A64B761184CDFC005C38AB /* XCBuildMessageTextBookmark */ = 26A64B761184CDFC005C38AB /* XCBuildMessageTextBookmark */;
+			26A64B771184CDFC005C38AB /* PBXTextBookmark */ = 26A64B771184CDFC005C38AB /* PBXTextBookmark */;
+			26A64B801184CE0A005C38AB /* PBXTextBookmark */ = 26A64B801184CE0A005C38AB /* PBXTextBookmark */;
+			26A64B811184CE0A005C38AB /* PBXTextBookmark */ = 26A64B811184CE0A005C38AB /* PBXTextBookmark */;
+			26A64B821184CE0A005C38AB /* XCBuildMessageTextBookmark */ = 26A64B821184CE0A005C38AB /* XCBuildMessageTextBookmark */;
+			26A64B831184CE0A005C38AB /* PBXTextBookmark */ = 26A64B831184CE0A005C38AB /* PBXTextBookmark */;
 		};
 		sourceControlManager = 26906AB811839480007B2808 /* Source Control */;
 		userBuildSettings = {
@@ -59,26 +64,6 @@
 			sepNavSelRange = "{252, 0}";
 			sepNavVisRange = "{0, 793}";
 		};
-	};
-	267AEAC31184913400623423 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 26906AC911839509007B2808 /* bankservant.h */;
-		name = "bankservant.h: 13";
-		rLen = 0;
-		rLoc = 199;
-		rType = 0;
-		vrLen = 1140;
-		vrLoc = 137;
-	};
-	267AEAC51184913400623423 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 26906AC811839509007B2808 /* bankservant.cpp */;
-		name = "bankservant.cpp: 128";
-		rLen = 0;
-		rLoc = 3054;
-		rType = 0;
-		vrLen = 1007;
-		vrLoc = 2047;
 	};
 	267AEB241184A00700623423 /* banks.txt */ = {
 		uiCtxt = {
@@ -107,26 +92,6 @@
 		vrLen = 43;
 		vrLoc = 0;
 	};
-	267AEC1F1184B76100623423 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 26906AC511839509007B2808 /* bankaccount.cpp */;
-		name = "bankaccount.cpp: 33";
-		rLen = 0;
-		rLoc = 527;
-		rType = 0;
-		vrLen = 811;
-		vrLoc = 167;
-	};
-	267AEC201184B76100623423 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 26906AC611839509007B2808 /* bankaccount.h */;
-		name = "bankaccount.h: 19";
-		rLen = 0;
-		rLoc = 282;
-		rType = 0;
-		vrLen = 742;
-		vrLoc = 0;
-	};
 	267AEC211184B76100623423 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 26906AC211839509007B2808 /* remoteobj.h */;
@@ -136,36 +101,6 @@
 		rType = 0;
 		vrLen = 914;
 		vrLoc = 1212;
-	};
-	267AEC221184B76100623423 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 26906AC111839509007B2808 /* remoteobj.cpp */;
-		name = "remoteobj.cpp: 387";
-		rLen = 0;
-		rLoc = 9989;
-		rType = 0;
-		vrLen = 1184;
-		vrLoc = 0;
-	};
-	267AEC231184B76100623423 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 26906AC111839509007B2808 /* remoteobj.cpp */;
-		name = "remoteobj.cpp: 386";
-		rLen = 0;
-		rLoc = 9942;
-		rType = 0;
-		vrLen = 841;
-		vrLoc = 9335;
-	};
-	267AEC311184B78100623423 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 26906AC111839509007B2808 /* remoteobj.cpp */;
-		name = "remoteobj.cpp: 400";
-		rLen = 0;
-		rLoc = 10277;
-		rType = 0;
-		vrLen = 737;
-		vrLoc = 9780;
 	};
 	26906AAF11839475007B2808 /* BankServer */ = {
 		isa = PBXExecutable;
@@ -220,9 +155,9 @@
 	};
 	26906AC111839509007B2808 /* remoteobj.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 5486}}";
-			sepNavSelRange = "{10277, 0}";
-			sepNavVisRange = "{9780, 737}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 5512}}";
+			sepNavSelRange = "{10274, 0}";
+			sepNavVisRange = "{9741, 773}";
 		};
 	};
 	26906AC211839509007B2808 /* remoteobj.h */ = {
@@ -236,28 +171,29 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1171, 702}}";
 			sepNavSelRange = "{527, 0}";
-			sepNavVisRange = "{167, 811}";
+			sepNavVisRange = "{167, 781}";
 		};
 	};
 	26906AC611839509007B2808 /* bankaccount.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 531}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 520}}";
 			sepNavSelRange = "{282, 0}";
 			sepNavVisRange = "{0, 742}";
 		};
 	};
 	26906AC811839509007B2808 /* bankservant.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 1664}}";
-			sepNavSelRange = "{3054, 0}";
-			sepNavVisRange = "{2047, 1007}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1651}}";
+			sepNavSelRange = "{707, 0}";
+			sepNavVisRange = "{23, 1172}";
+			sepNavWindowFrame = "{{15, 276}, {1057, 597}}";
 		};
 	};
 	26906AC911839509007B2808 /* bankservant.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 663}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 689}}";
 			sepNavSelRange = "{199, 0}";
-			sepNavVisRange = "{137, 1140}";
+			sepNavVisRange = "{0, 917}";
 		};
 	};
 	26965F961183AA6800970693 /* PBXTextBookmark */ = {
@@ -269,6 +205,124 @@
 		rType = 0;
 		vrLen = 793;
 		vrLoc = 0;
+	};
+	26A64B511184CCCB005C38AB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 26906AC111839509007B2808 /* remoteobj.cpp */;
+		name = "remoteobj.cpp: 399";
+		rLen = 0;
+		rLoc = 10274;
+		rType = 0;
+		vrLen = 773;
+		vrLoc = 9741;
+	};
+	26A64B521184CCCB005C38AB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 26906AC611839509007B2808 /* bankaccount.h */;
+		name = "bankaccount.h: 19";
+		rLen = 0;
+		rLoc = 282;
+		rType = 0;
+		vrLen = 742;
+		vrLoc = 0;
+	};
+	26A64B531184CCCB005C38AB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 26906AC511839509007B2808 /* bankaccount.cpp */;
+		name = "bankaccount.cpp: 33";
+		rLen = 0;
+		rLoc = 527;
+		rType = 0;
+		vrLen = 781;
+		vrLoc = 167;
+	};
+	26A64B541184CCCB005C38AB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 26906AC911839509007B2808 /* bankservant.h */;
+		name = "bankservant.h: 13";
+		rLen = 0;
+		rLoc = 199;
+		rType = 0;
+		vrLen = 917;
+		vrLoc = 0;
+	};
+	26A64B551184CCCB005C38AB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 26906AC811839509007B2808 /* bankservant.cpp */;
+		name = "bankservant.cpp: 26";
+		rLen = 0;
+		rLoc = 650;
+		rType = 0;
+		vrLen = 1085;
+		vrLoc = 0;
+	};
+	26A64B561184CCCB005C38AB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 26906AC811839509007B2808 /* bankservant.cpp */;
+		name = "bankservant.cpp: 26";
+		rLen = 0;
+		rLoc = 650;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 23;
+	};
+	26A64B761184CDFC005C38AB /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Request for member 'deposit' in 'acct', which is of non-class type 'BankAccount*'";
+		fRef = 26906AC811839509007B2808 /* bankservant.cpp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 26;
+		rType = 1;
+	};
+	26A64B771184CDFC005C38AB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 26906AC811839509007B2808 /* bankservant.cpp */;
+		name = "bankservant.cpp: 25";
+		rLen = 0;
+		rLoc = 650;
+		rType = 0;
+		vrLen = 373;
+		vrLoc = 456;
+	};
+	26A64B801184CE0A005C38AB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 26906AC611839509007B2808 /* bankaccount.h */;
+		name = "bankaccount.h: 19";
+		rLen = 0;
+		rLoc = 282;
+		rType = 0;
+		vrLen = 742;
+		vrLoc = 0;
+	};
+	26A64B811184CE0A005C38AB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 26906AC911839509007B2808 /* bankservant.h */;
+		name = "bankservant.h: 13";
+		rLen = 0;
+		rLoc = 199;
+		rType = 0;
+		vrLen = 917;
+		vrLoc = 0;
+	};
+	26A64B821184CE0A005C38AB /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Request for member 'deposit' in 'acct', which is of non-class type 'BankAccount*'";
+		fRef = 26906AC811839509007B2808 /* bankservant.cpp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 26;
+		rType = 1;
+	};
+	26A64B831184CE0A005C38AB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 26906AC811839509007B2808 /* bankservant.cpp */;
+		name = "bankservant.cpp: 27";
+		rLen = 0;
+		rLoc = 743;
+		rType = 0;
+		vrLen = 1172;
+		vrLoc = 23;
 	};
 	8DD76F620486A84900D96B5E /* BankServer */ = {
 		activeExec = 0;

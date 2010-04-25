@@ -21,6 +21,15 @@ BankServant::BankServant () {
 			bank[i].createBank(bankname);
 			cout <<	"Created bank: " << bankname << endl;
 		}
+		
+		//Create default bank accounts
+		BankAccount * acct = this->createBankAccount("Troy", "pass", "BofA");
+		acct->deposit(200000.0);
+		acct = this->createBankAccount("Pam", "pass", "Wells");
+		acct->deposit(250000.0);
+		acct = this->createBankAccount("Tom", "p1", "Citi");
+		acct->deposit(100000.0);
+
 	} else {
 		cout << "bankfile not found\n";
 	}

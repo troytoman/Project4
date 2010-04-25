@@ -63,13 +63,13 @@ string StockAccount::sellStock(string s, int numshares) {
 			
 			pthread_mutex_lock(&lock); //Lock to keep protect
 
-			if (stocks[i].Sell(numshares)) {
+			if (!stocks[i].Sell(numshares)) {
+				pthread_mutex_unlock(&lock); //Unlock before return
+				return "\n!Not enough shares!\n";
+			} else {
 				cashbalance += (numshares * stocks[i].Price());
 				pthread_mutex_unlock(&lock); //Unlock before return
 				return "OK";
-			} else {
-				pthread_mutex_unlock(&lock); //Unlock before return
-				return "\n!Not enough shares!\n";
 			}
 		}
 	}

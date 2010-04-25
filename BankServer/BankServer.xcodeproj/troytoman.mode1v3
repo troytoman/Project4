@@ -270,7 +270,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
+									<integer>8</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -313,7 +313,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>remoteobj.cpp</string>
+								<string>bankservant.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -321,22 +321,22 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>remoteobj.cpp</string>
+										<string>bankservant.cpp</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>267AEC311184B78100623423</string>
+										<string>26A64B831184CE0A005C38AB</string>
 										<key>history</key>
 										<array>
 											<string>26965F961183AA6800970693</string>
-											<string>267AEAC31184913400623423</string>
-											<string>267AEAC51184913400623423</string>
 											<string>267AEB5A1184A84700623423</string>
 											<string>267AEB5B1184A84700623423</string>
-											<string>267AEC1F1184B76100623423</string>
-											<string>267AEC201184B76100623423</string>
 											<string>267AEC211184B76100623423</string>
-											<string>267AEC231184B76100623423</string>
+											<string>26A64B511184CCCB005C38AB</string>
+											<string>26A64B531184CCCB005C38AB</string>
+											<string>26A64B801184CE0A005C38AB</string>
+											<string>26A64B811184CE0A005C38AB</string>
+											<string>26A64B821184CE0A005C38AB</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -348,14 +348,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1232, 557}}</string>
+								<string>{{0, 0}, {1232, 545}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1440 819 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>557pt</string>
+							<string>545pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -368,14 +368,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 562}, {1232, 216}}</string>
+								<string>{{0, 550}, {1232, 228}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1440 819 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>216pt</string>
+							<string>228pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -394,9 +394,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>267AEC321184B78100623423</string>
+				<string>26A64B841184CE0A005C38AB</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>267AEC331184B78100623423</string>
+				<string>26A64B851184CE0A005C38AB</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -534,6 +534,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>26906AB611839480007B2808</string>
 		<string>/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/BankServer.xcodeproj</string>
 	</array>
@@ -559,7 +560,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>bankservant.cpp</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -576,6 +577,8 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -615,7 +618,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>26906AB611839480007B2808</string>
-				<string>267AEC341184B78100623423</string>
+				<string>26A64B621184CCE9005C38AB</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -737,13 +740,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>267AEB521184A7D500623423</string>
+				<string>26A64B781184CDFC005C38AB</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>267AEB531184A7D500623423</string>
-				<string>267AEB541184A7D500623423</string>
-				<string>267AEB551184A7D500623423</string>
-				<string>267AEB561184A7D500623423</string>
-				<string>267AEB571184A7D500623423</string>
+				<string>26A64B791184CDFC005C38AB</string>
+				<string>26A64B7A1184CDFC005C38AB</string>
+				<string>26A64B7B1184CDFC005C38AB</string>
+				<string>26A64B7C1184CDFC005C38AB</string>
+				<string>26A64B7D1184CDFC005C38AB</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>

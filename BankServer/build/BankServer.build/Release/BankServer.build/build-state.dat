@@ -1,0 +1,411 @@
+TBankServer
+v7
+r0
+t293915920.675799
+cCheck dependencies
+cCompileC build/BankServer.build/Release/BankServer.build/Objects-normal/x86_64/main.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/BankServer.build/Release/BankServer.build/Objects-normal/x86_64/remoteobj.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/BankServer.build/Release/BankServer.build/Objects-normal/x86_64/bankaccount.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/BankServer.build/Release/BankServer.build/Objects-normal/x86_64/bankservant.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/BankServer.build/Release/BankServer.build/Objects-normal/i386/main.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/BankServer.build/Release/BankServer.build/Objects-normal/i386/remoteobj.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/BankServer.build/Release/BankServer.build/Objects-normal/i386/bankaccount.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/BankServer.build/Release/BankServer.build/Objects-normal/i386/bankservant.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/BankServer.build/Release/BankServer.build/Objects-normal/ppc/main.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp" normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC build/BankServer.build/Release/BankServer.build/Objects-normal/ppc/remoteobj.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp" normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC build/BankServer.build/Release/BankServer.build/Objects-normal/ppc/bankaccount.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp" normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC build/BankServer.build/Release/BankServer.build/Objects-normal/ppc/bankservant.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp" normal ppc c++ com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/arpa/inet.h
+c000000004A4180D20000000000001533
+t1245806802
+s5427
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
+c000000004A5C14A600000000000003EB
+t1247548582
+s1003
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netdb.h
+c000000004A4181220000000000003057
+t1245806882
+s12375
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/in.h
+c000000004A73D64C000000000000539D
+t1249105484
+s21405
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h
+c000000004A5C14A700000000000038F0
+t1247548583
+s14576
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/signal.h
+c000000004A5C14A700000000000014F0
+t1247548583
+s5360
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/socket.h
+c000000004A73D65400000000000059BC
+t1249105492
+s22972
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004A73D6550000000000002905
+t1249105493
+s10501
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/wait.h
+c000000004A73D656000000000000273C
+t1249105494
+s10044
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004A5C14A7000000000000563E
+t1247548583
+s22078
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp
+c000000004BD36F7100000000000003E4
+t1272147825
+s996
+i"bankaccount.h"
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.h
+c000000004BD47FAD00000000000002E6
+t1272217517
+s742
+i<iostream>
+i<string>
+i<sstream>
+i<pthread.h>
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp
+c000000004BD494A90000000000000CCA
+t1272222889
+s3274
+i"bankservant.h"
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.h
+c000000004BD3715100000000000004FD
+t1272148305
+s1277
+i<fstream>
+i"bankaccount.h"
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/i386/BankServer
+t2
+s0
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/i386/BankServer.LinkFileList
+c000000004BD4958D0000000000000273
+t1272223117
+s627
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/i386/bankaccount.o
+t1272223119
+s84436
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/i386/bankservant.o
+t2
+s0
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/i386/main.o
+t1272223119
+s78776
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/i386/remoteobj.o
+t1272223119
+s151464
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/ppc/BankServer
+t2
+s0
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/ppc/BankServer.LinkFileList
+c000000004BD4958D000000000000026F
+t1272223117
+s623
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/ppc/bankaccount.o
+t1272223120
+s85004
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/ppc/bankservant.o
+t2
+s0
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/ppc/main.o
+t1272223120
+s80056
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/ppc/remoteobj.o
+t1272223120
+s150220
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/x86_64/BankServer
+t2
+s0
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/x86_64/BankServer.LinkFileList
+c000000004BD4958D000000000000027B
+t1272223117
+s635
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/x86_64/bankaccount.o
+t1272223118
+s86784
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/x86_64/bankservant.o
+t2
+s0
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/x86_64/main.o
+t1272223118
+s80700
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/x86_64/remoteobj.o
+t1272223119
+s160812
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release/BankServer
+t2
+s0
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release/BankServer.dSYM
+t2
+s0
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp
+c000000004BD3705A0000000000000319
+t1272148058
+s793
+i<iostream>
+i<string>
+i<pthread.h>
+i"remoteobj.h"
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp
+c000000004BD494E60000000000002912
+t1272222950
+s10514
+i"remoteobj.h"
+
+N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.h
+c000000004BD45AB6000000000000095C
+t1272208054
+s2396
+i<iostream>
+i<fstream>
+i<string>
+i<sstream>
+i<iomanip>
+i<stdio.h>
+i<unistd.h>
+i<errno.h>
+i<sys/types.h>
+i<sys/socket.h>
+i<netinet/in.h>
+i<netdb.h>
+i<arpa/inet.h>
+i<sys/wait.h>
+i<signal.h>
+i<pthread.h>
+i"bankservant.h"
+i"bankaccount.h"
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies293915917#293915917#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/BankServer.build/Release/BankServer.build/Objects-normal/i386/bankaccount.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s293915918.637058
+e293915919.349418
+r1
+xCompileC
+xbuild/BankServer.build/Release/BankServer.build/Objects-normal/i386/bankaccount.o
+x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp293915918#293915919#0(0"0(0#0#92"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp4300911832#1829"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/DerivedSources/i386" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/i386/bankaccount.o"0#
+
+CCompileC build/BankServer.build/Release/BankServer.build/Objects-normal/i386/bankservant.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s293915919.029761
+e293915919.482940
+r0
+xCompileC
+xbuild/BankServer.build/Release/BankServer.build/Objects-normal/i386/bankservant.o
+x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp: In constructor 'BankServant::BankServant()':
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp:26: error: request for member 'deposit' in 'newaccount', which is of non-class type 'BankAccount*'
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp:28: error: request for member 'deposit' in 'newaccount', which is of non-class type 'BankAccount*'
+lSLF07#2@100"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp293915919#293915919#0(523"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp: In constructor 'BankServant::BankServant()':/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp:26: error: request for member 'deposit' in 'newaccount', which is of non-class type 'BankAccount*'/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp:28: error: request for member 'deposit' in 'newaccount', which is of non-class type 'BankAccount*'2(4@87"Request for member 'deposit' in 'newaccount', which is of non-class type 'BankAccount*'293915919#139#192#0(6@92"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp293915689#26#0#26#0#0"0(4@87"Request for member 'deposit' in 'newaccount', which is of non-class type 'BankAccount*'293915919#331#192#0(6@92"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp293915689#28#0#28#0#0"0(0#0#92"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp4300911832#1829"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/DerivedSources/i386" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/i386/bankservant.o"1#
+
+CCompileC build/BankServer.build/Release/BankServer.build/Objects-normal/i386/main.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s293915918.634468
+e293915919.384706
+r1
+xCompileC
+xbuild/BankServer.build/Release/BankServer.build/Objects-normal/i386/main.o
+x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp293915918#293915919#0(0"0(0#0#85"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp4300911832#1815"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/DerivedSources/i386" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/BankServer.build/Release/BankServer.build/Objects-normal/i386/remoteobj.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s293915918.635986
+e293915919.844397
+r1
+xCompileC
+xbuild/BankServer.build/Release/BankServer.build/Objects-normal/i386/remoteobj.o
+x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp293915918#293915919#0(0"0(0#0#90"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp4300911832#1825"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/DerivedSources/i386" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/i386/remoteobj.o"0#
+
+CCompileC build/BankServer.build/Release/BankServer.build/Objects-normal/ppc/bankaccount.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp" normal ppc c++ com.apple.compilers.gcc.4_2
+s293915919.483160
+e293915920.308574
+r1
+xCompileC
+xbuild/BankServer.build/Release/BankServer.build/Objects-normal/ppc/bankaccount.o
+x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp293915919#293915920#0(0"0(0#0#92"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp4300911832#1836"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/DerivedSources/ppc" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/ppc/bankaccount.o"0#
+
+CCompileC build/BankServer.build/Release/BankServer.build/Objects-normal/ppc/bankservant.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp" normal ppc c++ com.apple.compilers.gcc.4_2
+s293915919.844546
+e293915920.317946
+r0
+xCompileC
+xbuild/BankServer.build/Release/BankServer.build/Objects-normal/ppc/bankservant.o
+x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp: In constructor 'BankServant::BankServant()':
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp:26: error: request for member 'deposit' in 'newaccount', which is of non-class type 'BankAccount*'
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp:28: error: request for member 'deposit' in 'newaccount', which is of non-class type 'BankAccount*'
+lSLF07#2@100"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp293915919#293915920#0(523"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp: In constructor 'BankServant::BankServant()':/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp:26: error: request for member 'deposit' in 'newaccount', which is of non-class type 'BankAccount*'/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp:28: error: request for member 'deposit' in 'newaccount', which is of non-class type 'BankAccount*'2(4@87"Request for member 'deposit' in 'newaccount', which is of non-class type 'BankAccount*'293915920#139#192#0(6@92"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp293915689#26#0#26#0#0"0(4@87"Request for member 'deposit' in 'newaccount', which is of non-class type 'BankAccount*'293915920#331#192#0(6@92"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp293915689#28#0#28#0#0"0(0#0#92"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp4300911832#1836"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/DerivedSources/ppc" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/ppc/bankservant.o"1#
+
+CCompileC build/BankServer.build/Release/BankServer.build/Objects-normal/ppc/main.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp" normal ppc c++ com.apple.compilers.gcc.4_2
+s293915919.349556
+e293915920.324701
+r1
+xCompileC
+xbuild/BankServer.build/Release/BankServer.build/Objects-normal/ppc/main.o
+x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp293915919#293915920#0(0"0(0#0#85"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp4300911832#1822"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/DerivedSources/ppc" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/ppc/main.o"0#
+
+CCompileC build/BankServer.build/Release/BankServer.build/Objects-normal/ppc/remoteobj.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp" normal ppc c++ com.apple.compilers.gcc.4_2
+s293915919.384844
+e293915920.675694
+r1
+xCompileC
+xbuild/BankServer.build/Release/BankServer.build/Objects-normal/ppc/remoteobj.o
+x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp293915919#293915920#0(0"0(0#0#90"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp4300911832#1832"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/DerivedSources/ppc" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/ppc/remoteobj.o"0#
+
+CCompileC build/BankServer.build/Release/BankServer.build/Objects-normal/x86_64/bankaccount.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s293915917.962973
+e293915918.635888
+r1
+xCompileC
+xbuild/BankServer.build/Release/BankServer.build/Objects-normal/x86_64/bankaccount.o
+x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp293915917#293915918#0(0"0(0#0#92"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp4300911832#1835"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankaccount.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/x86_64/bankaccount.o"0#
+
+CCompileC build/BankServer.build/Release/BankServer.build/Objects-normal/x86_64/bankservant.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s293915917.964245
+e293915918.634303
+r0
+xCompileC
+xbuild/BankServer.build/Release/BankServer.build/Objects-normal/x86_64/bankservant.o
+x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp: In constructor 'BankServant::BankServant()':
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp:26: error: request for member 'deposit' in 'newaccount', which is of non-class type 'BankAccount*'
+o/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp:28: error: request for member 'deposit' in 'newaccount', which is of non-class type 'BankAccount*'
+lSLF07#2@100"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp293915917#293915918#0(523"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp: In constructor 'BankServant::BankServant()':/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp:26: error: request for member 'deposit' in 'newaccount', which is of non-class type 'BankAccount*'/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp:28: error: request for member 'deposit' in 'newaccount', which is of non-class type 'BankAccount*'2(4@87"Request for member 'deposit' in 'newaccount', which is of non-class type 'BankAccount*'293915918#139#192#0(6@92"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp293915689#26#0#26#0#0"0(4@87"Request for member 'deposit' in 'newaccount', which is of non-class type 'BankAccount*'293915918#331#192#0(6@92"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp293915689#28#0#28#0#0"0(0#0#92"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp4300911832#1835"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/bankservant.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/x86_64/bankservant.o"1#
+
+CCompileC build/BankServer.build/Release/BankServer.build/Objects-normal/x86_64/main.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s293915917.960531
+e293915918.635682
+r1
+xCompileC
+xbuild/BankServer.build/Release/BankServer.build/Objects-normal/x86_64/main.o
+x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp293915917#293915918#0(0"0(0#0#85"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp4300911832#1821"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/main.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/x86_64/main.o"0#
+
+CCompileC build/BankServer.build/Release/BankServer.build/Objects-normal/x86_64/remoteobj.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s293915917.961767
+e293915919.029617
+r1
+xCompileC
+xbuild/BankServer.build/Release/BankServer.build/Objects-normal/x86_64/remoteobj.o
+x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp293915917#293915919#0(0"0(0#0#90"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp4300911832#1831"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/BankServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/x86_64/remoteobj.o"0#
+
+CCreateUniversalBinary "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release/BankServer" normal "x86_64 i386 ppc"
+r0
+
+CGenerateDSYMFile "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release/BankServer.dSYM" "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/Release/BankServer"
+r0
+
+CLd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/i386/BankServer" normal i386
+r0
+
+CLd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/ppc/BankServer" normal ppc
+r0
+
+CLd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/build/BankServer.build/Release/BankServer.build/Objects-normal/x86_64/BankServer" normal x86_64
+r0
+

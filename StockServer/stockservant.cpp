@@ -13,6 +13,18 @@
 // in the list of accounts. This limits the number of accounts to no more than MAXACCOUNTS
 StockServant::StockServant () {
 	top = 0;
+	
+	//Create default stock accounts
+	this->createStockAccount("Troy", "pass", "BofA");
+	salist[top-1].Transfer(2, 10000);
+	salist[top-1].buyStock("ARRY", 100);
+	salist[top-1].buyStock("HGSI", 100);
+	this->createStockAccount("Pam", "pass", "Wells");
+	salist[top-1].Transfer(2, 20000);
+	salist[top-1].buyStock("FITB", 100);
+	salist[top-1].buyStock("BPOP", 100);
+	salist[top-1].buyStock("INTC", 100);
+	salist[top-1].buyStock("IBM", 100);
 };
 
 // The createStockAccount method will create a new instance of a StockAccount object and add it to the list
