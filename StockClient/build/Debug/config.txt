@@ -1,3 +1,3 @@
-n nameserver
+n TTMBPro.local
 s TTMBPro.local
 b TTMBPro.local

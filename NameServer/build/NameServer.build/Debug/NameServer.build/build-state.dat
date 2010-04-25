@@ -1,7 +1,7 @@
 TNameServer
 v7
 r0
-t293347081.631938
+t293911523.462007
 cCheck dependencies
 cCompileC build/NameServer.build/Debug/NameServer.build/Objects-normal/x86_64/main.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 cLd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/Debug/NameServer" normal x86_64
@@ -88,8 +88,8 @@ i<sys/wait.h>
 i<signal.h>
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/Debug/NameServer
-t1271654281
-s67928
+t1272218723
+s17808
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/NameServer.build/Debug/NameServer.build/Objects-normal/x86_64/NameServer.LinkFileList
 c000000004BCBBA680000000000000098
@@ -97,22 +97,22 @@ t1271642728
 s152
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/NameServer.build/Debug/NameServer.build/Objects-normal/x86_64/main.o
-t1271654281
-s180076
+t1272218684
+s78072
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/main.cpp
-c000000004BCBE7890000000000000B94
-t1271654281
-s2964
+c000000004BD484630000000000000B9E
+t1272218723
+s2974
 i"NameServer.h"
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies293347081#293347081#0(0"0(0#1#0"4300885448#0"0#
+lSLF07#2@18"Check dependencies293911523#293911523#0(0"0(0#1#0"4300911832#0"0#
 
 CCompileC build/NameServer.build/Debug/NameServer.build/Objects-normal/x86_64/main.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-s293347081.197526
-e293347081.613766
+s293911523.440662
+e293911523.442108
 r1
 xCompileC
 xbuild/NameServer.build/Debug/NameServer.build/Objects-normal/x86_64/main.o
@@ -121,15 +121,15 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@93"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/main.cpp293347081#293347081#0(0"0(0#0#85"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/main.cpp4300885448#1832"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/NameServer.build/Debug/NameServer.build/NameServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/NameServer.build/Debug/NameServer.build/NameServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/NameServer.build/Debug/NameServer.build/NameServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/NameServer.build/Debug/NameServer.build/NameServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/NameServer.build/Debug/NameServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/NameServer.build/Debug/NameServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/main.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/NameServer.build/Debug/NameServer.build/Objects-normal/x86_64/main.o"0#
+lSLF07#2@93"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/main.cpp293911523#293911523#0(0"2(22@111"The option '-D_GLIBCXX_DEBUG_PEDANTIC=1' should not be passed to GCC 4.2 and has been automatically suppressed.293911302#18446744073709551615#0#0(1@0"0(22@102"The option '-D_GLIBCXX_DEBUG=1' should not be passed to GCC 4.2 and has been automatically suppressed.293911302#18446744073709551615#0#0(1@0"0(0#0#85"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/main.cpp4300911832#1785"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/NameServer.build/Debug/NameServer.build/NameServer-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/NameServer.build/Debug/NameServer.build/NameServer-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/NameServer.build/Debug/NameServer.build/NameServer-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/NameServer.build/Debug/NameServer.build/NameServer-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/NameServer.build/Debug/NameServer.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/NameServer.build/Debug/NameServer.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/main.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/NameServer.build/Debug/NameServer.build/Objects-normal/x86_64/main.o"0#
 
 CLd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/Debug/NameServer" normal x86_64
-s293347081.613878
-e293347081.631888
+s293911523.442183
+e293911523.461966
 r1
 xLd
 x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/Debug/NameServer
 xnormal
 xx86_64
-lSLF07#2@104"Link /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/Debug/NameServer293347081#293347081#0(0"0(0#0#0"4300885448#710"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/Debug" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/Debug" -filelist "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/NameServer.build/Debug/NameServer.build/Objects-normal/x86_64/NameServer.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/Debug/NameServer"0#
+lSLF07#2@104"Link /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/Debug/NameServer293911523#293911523#0(0"0(0#0#0"4300911832#710"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/Debug" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/Debug" -filelist "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/NameServer.build/Debug/NameServer.build/Objects-normal/x86_64/NameServer.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/NameServer/build/Debug/NameServer"0#
 

@@ -97,6 +97,7 @@ int main (int argc, char * const argv[]) {
 			cout << "Registered: " << list[top].name << " Ref: " << list[top].remoteobjref << endl;
 			cout << "Index: " << top << endl;
 			returnstr = "1";
+			top++;
 		} else if (buf[0] == '2') {
 			string parms(&buf[1]);
 			

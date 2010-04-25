@@ -1,18 +1,52 @@
 /*
- *  Skeleton.h
+ *  skeleton.h
  *  StockServer
  *
- *  Created by Troy Toman on 4/17/10.
- *  Copyright 2010 Troy Toman. All rights reserved.
- *  
- *  This file contains the code for creating the communications
- *  the dispatcher and the skeletons. 
+ *  Created by Troy Toman on 4/25/10.
+ *  Copyright 2010 Rackspace. All rights reserved.
  *
  */
 
-#ifndef	Skeleton_H
-#define Skeleton_H
+#ifndef SKELETONH
+#define SKELETONH
 
-#include "remoteobj.h"
+#include "stockservant.h"
+#include "stockaccount.h"
+
+extern RemoteObjModule rom;
+
+class StockServantSkeleton {
+public:
+	StockServantSkeleton (StockServant * localobj);
+	string invokelocal (char * buf);
+private: 
+	StockServant * local;
+};
+
+class StockAccountSkeleton {
+public:
+	//	StockAccountSkeleton
+	StockAccountSkeleton() {nextid = 0;};
+	RemoteObjRef NewRemoteRef (StockAccount * localobj);
+	string invokelocal (char * buf);
+private:
+	int nextid;
+	StockAccount * local[MAXACCOUNTS];
+};
+
+class StockSkeleton {
+public:
+	StockSkeleton() {nextid = 0;};
+	RemoteObjRef NewRemoteRef (Stock * localobj);
+	string invokelocal (char * buf);
+private:
+	int nextid;
+	Stock * local[NUMSTOCKS*MAXACCOUNTS];
+};
+
+//Create a global variable for skeletons
+extern StockServantSkeleton * ssskel;
+extern StockAccountSkeleton * saskel;
+extern StockSkeleton * stskel;
 
 #endif

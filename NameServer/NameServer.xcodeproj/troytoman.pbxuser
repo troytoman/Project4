@@ -33,13 +33,13 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 293581592;
-			PBXWorkspaceStateSaveDate = 293581592;
+			PBXPerProjectTemplateStateSaveDate = 293911302;
+			PBXWorkspaceStateSaveDate = 293911302;
 		};
 		perUserProjectItems = {
-			261038AE117FCE55003C3D2F /* PBXTextBookmark */ = 261038AE117FCE55003C3D2F /* PBXTextBookmark */;
-			261038AF117FCE55003C3D2F /* PBXTextBookmark */ = 261038AF117FCE55003C3D2F /* PBXTextBookmark */;
-			261038B0117FCE55003C3D2F /* PBXTextBookmark */ = 261038B0117FCE55003C3D2F /* PBXTextBookmark */;
+			267AEC4C1184BC0200623423 /* PBXTextBookmark */ = 267AEC4C1184BC0200623423 /* PBXTextBookmark */;
+			267AEC4D1184BC0200623423 /* PBXTextBookmark */ = 267AEC4D1184BC0200623423 /* PBXTextBookmark */;
+			267AEC4E1184BC0200623423 /* PBXTextBookmark */ = 267AEC4E1184BC0200623423 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 26BE6EF8117B495A00DCC1CB /* Source Control */;
 		userBuildSettings = {
@@ -47,41 +47,41 @@
 	};
 	08FB7796FE84155DC02AAC07 /* main.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {705, 1612}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 367}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1573}}";
+			sepNavSelRange = "{2492, 0}";
+			sepNavVisRange = "{1875, 1080}";
 			sepNavWindowFrame = "{{268, 45}, {1057, 597}}";
 		};
 	};
-	261038AE117FCE55003C3D2F /* PBXTextBookmark */ = {
+	267AEC4C1184BC0200623423 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 26BE71E3117BF0F500DCC1CB /* NameServer.h */;
+		name = "NameServer.h: 43";
+		rLen = 0;
+		rLoc = 692;
+		rType = 0;
+		vrLen = 611;
+		vrLoc = 128;
+	};
+	267AEC4D1184BC0200623423 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
 		name = "main.cpp: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 1176;
+		vrLen = 1148;
 		vrLoc = 0;
 	};
-	261038AF117FCE55003C3D2F /* PBXTextBookmark */ = {
+	267AEC4E1184BC0200623423 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 26BE71E3117BF0F500DCC1CB /* NameServer.h */;
-		name = "NameServer.h: 43";
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		name = "main.cpp: 100";
 		rLen = 0;
-		rLoc = 692;
+		rLoc = 2492;
 		rType = 0;
-		vrLen = 697;
-		vrLoc = 35;
-	};
-	261038B0117FCE55003C3D2F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 26BE71E3117BF0F500DCC1CB /* NameServer.h */;
-		name = "NameServer.h: 43";
-		rLen = 0;
-		rLoc = 692;
-		rType = 0;
-		vrLen = 697;
-		vrLoc = 35;
+		vrLen = 1080;
+		vrLoc = 1875;
 	};
 	26BE6EED117B494900DCC1CB /* NameServer */ = {
 		isa = PBXExecutable;
@@ -99,6 +99,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -106,6 +107,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = NameServer;
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
@@ -128,7 +131,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1171, 624}}";
 			sepNavSelRange = "{692, 0}";
-			sepNavVisRange = "{35, 697}";
+			sepNavVisRange = "{128, 611}";
 		};
 	};
 	8DD76F620486A84900D96B5E /* NameServer */ = {

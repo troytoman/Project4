@@ -358,6 +358,7 @@ string BankAccountSkeleton::invokelocal(char * buf) {
 	int oid;
 	char oidstr[5];
 	string retstr;
+	ostringstream samount;
 	
 	memset(oidstr, '\0', 5);
 	
@@ -382,10 +383,10 @@ string BankAccountSkeleton::invokelocal(char * buf) {
 	} else if (methodid=='3') { //withdrawal
 		
 		float amt = atof(&buf[6]);
-		local[oid]->withdraw(amt);
+		samount << local[oid]->withdraw(amt);
 		
-		return "1";
-		
+		return samount.str();
+			
 		} 
 	return "0";
 };

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		267AEB881184AA9800623423 /* bankaccountproxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 267AEB861184AA9800623423 /* bankaccountproxy.cpp */; };
+		267AEBD11184AFFB00623423 /* skeleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 267AEBD01184AFFB00623423 /* skeleton.cpp */; };
 		26BE6D2B1179EE9800DCC1CB /* stockservant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26BE6D2A1179EE9800DCC1CB /* stockservant.cpp */; };
 		26BE6D351179EF8C00DCC1CB /* bankproxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26BE6D341179EF8C00DCC1CB /* bankproxy.cpp */; };
 		26BE6D3C1179F06200DCC1CB /* remoteobj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26BE6D3B1179F06200DCC1CB /* remoteobj.cpp */; };
@@ -31,6 +33,10 @@
 
 /* Begin PBXFileReference section */
 		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		267AEB861184AA9800623423 /* bankaccountproxy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bankaccountproxy.cpp; sourceTree = "<group>"; };
+		267AEB871184AA9800623423 /* bankaccountproxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bankaccountproxy.h; sourceTree = "<group>"; };
+		267AEBCF1184AFFB00623423 /* skeleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skeleton.h; sourceTree = "<group>"; };
+		267AEBD01184AFFB00623423 /* skeleton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = skeleton.cpp; sourceTree = "<group>"; };
 		26BE6D291179EE9800DCC1CB /* stockservant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stockservant.h; sourceTree = "<group>"; };
 		26BE6D2A1179EE9800DCC1CB /* stockservant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stockservant.cpp; sourceTree = "<group>"; };
 		26BE6D331179EF8C00DCC1CB /* bankproxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bankproxy.h; sourceTree = "<group>"; };
@@ -70,6 +76,10 @@
 		08FB7795FE84155DC02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				267AEBCF1184AFFB00623423 /* skeleton.h */,
+				267AEBD01184AFFB00623423 /* skeleton.cpp */,
+				267AEB861184AA9800623423 /* bankaccountproxy.cpp */,
+				267AEB871184AA9800623423 /* bankaccountproxy.h */,
 				26BE7212117BFC9E00DCC1CB /* config.txt */,
 				26BE6D441179F18D00DCC1CB /* stockaccount.h */,
 				26BE6D451179F18D00DCC1CB /* stockaccount.cpp */,
@@ -151,6 +161,8 @@
 				26BE6D3C1179F06200DCC1CB /* remoteobj.cpp in Sources */,
 				26BE6D461179F18D00DCC1CB /* stockaccount.cpp in Sources */,
 				26BE6D4B1179F21900DCC1CB /* stock.cpp in Sources */,
+				267AEB881184AA9800623423 /* bankaccountproxy.cpp in Sources */,
+				267AEBD11184AFFB00623423 /* skeleton.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -79,9 +79,13 @@ string StockAccount::sellStock(string s, int numshares) {
 
 //Fill in the values for a new account
 void StockAccount::addinfo (string nam, string pwd, string bnk) {
+	BankServantProxy bankserv;
+	
 	name = nam;
 	password = pwd;
-	//Need to add logic for getting the bank remote object
+	
+	//Get the bank remote object reference
+	bankaccount = bankserv.getBankAccount(nam, pwd, bnk);
 }
 
 int StockAccount::checkAccount (string n, string p) {
@@ -97,9 +101,15 @@ void StockAccount::Transfer (char type, float amount) {
 		if (cashbalance < amount) {
 			amount = cashbalance;
 		}
+		bankaccount.deposit(amount);
 		cashbalance -= amount;
 	} else {
-		cashbalance += amount;
+		if (bankaccount.withdraw(amount)) {
+			cashbalance += amount;
+		} else {
+			cout << "Withdrawal failed";
+		}
+
 	}
 	pthread_mutex_unlock(&lock);
 }

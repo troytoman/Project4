@@ -20,9 +20,6 @@
 
 #include "remoteobjref.h"
 
-//Constructor for a RemoteObjRef with no inputs
-RemoteObjRef::RemoteObjRef () {
-}
 
 //Constructor for a RemoteObjRef from a marshalled reference
 RemoteObjRef::RemoteObjRef (string marshalled) {

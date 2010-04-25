@@ -17,8 +17,6 @@ using namespace std;
 
 #include <pthread.h>
 
-#include "stockservantproxy.h"
-
 const int MAXACCOUNTS = 50;
 
 

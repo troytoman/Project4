@@ -51,7 +51,7 @@ const int MAXRECV = 500;
 
 class RemoteObjRef {
 public:
-	RemoteObjRef();
+	RemoteObjRef() {};
 	RemoteObjRef (string marshalled);
 	RemoteObjRef (void * newremobj, char cid, int oid);
 	string hostname;

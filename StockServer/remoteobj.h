@@ -12,8 +12,8 @@
 // classID - an integer that specifies the type of object being called
 // objectID - an integer that represents the specific object instance
 
-#ifndef RemoteObjRefH
-#define	RemoteObjRefH
+#ifndef REMOTEH
+#define	REMOTEH
 
 #include <iostream>
 #include <fstream>
@@ -36,9 +36,12 @@ using namespace std;
 #include <signal.h>
 #include <pthread.h>
 
+
+
 //Establish default port numbers
 #define NSSOCKET "22311"
 #define STSRVSOCKET "22310"
+
 #define BANKSOCKET "22312"
 
 const int MAXRECV = 500;
@@ -54,6 +57,7 @@ extern string NameServerHostName;
 
 class RemoteObjRef {
 public:
+	RemoteObjRef() {};
 	RemoteObjRef (string marshalled);
 	RemoteObjRef (char cid, int oid);
 	string hostname;
@@ -72,48 +76,10 @@ public:
 	int				Register(string name, RemoteObjRef ref);
 	RemoteObjRef	Lookup(string name);
 	int StartCommunications ();
+	string comm (RemoteObjRef ref, string marshall);
 private:
 	string nameserver;
 };
-
-#include "stockservant.h"
-#include "stockaccount.h"
-
-extern RemoteObjModule rom;
-
-class StockServantSkeleton {
-public:
-	StockServantSkeleton (StockServant * localobj);
-	string invokelocal (char * buf);
-private: 
-	StockServant * local;
-};
-
-class StockAccountSkeleton {
-public:
-	//	StockAccountSkeleton
-	StockAccountSkeleton() {nextid = 0;};
-	RemoteObjRef NewRemoteRef (StockAccount * localobj);
-	string invokelocal (char * buf);
-private:
-	int nextid;
-	StockAccount * local[MAXACCOUNTS];
-};
-
-class StockSkeleton {
-public:
-	StockSkeleton() {nextid = 0;};
-	RemoteObjRef NewRemoteRef (Stock * localobj);
-	string invokelocal (char * buf);
-private:
-	int nextid;
-	Stock * local[NUMSTOCKS*MAXACCOUNTS];
-};
-
-//Create a global variable for skeletons
-extern StockServantSkeleton * ssskel;
-extern StockAccountSkeleton * saskel;
-extern StockSkeleton * stskel;
 
 
 #endif

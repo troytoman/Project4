@@ -1,1 +1,2 @@
-/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockaccount.cpp:25: error: no 'void StockAccount::addinfo(std::string, std::string, std::string)' member function declared in class 'StockAccount'
+/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockaccount.cpp: In member function 'void StockAccount::Transfer(char, float)':
+/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/stockaccount.cpp:107: error: could not convert '((StockAccount*)this)->StockAccount::bankaccount. BankAccountProxy::withdraw(amount)' to 'bool'

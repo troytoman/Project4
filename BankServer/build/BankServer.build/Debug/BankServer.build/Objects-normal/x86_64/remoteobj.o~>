@@ -1,0 +1,4 @@
+/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp: In member function 'std::string BankAccountSkeleton::invokelocal(char*)':
+/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp:386: error: 'sam' was not declared in this scope
+/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp:387: error: expected `;' before 'ount'
+/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankServer/remoteobj.cpp:385: warning: unused variable 'amt'

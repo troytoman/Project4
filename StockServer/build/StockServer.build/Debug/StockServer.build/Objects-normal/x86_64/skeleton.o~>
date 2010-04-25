@@ -1,0 +1,7 @@
+/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/skeleton.cpp:12: error: 'StockServantSkeleton' has not been declared
+/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/skeleton.cpp:12: error: expected constructor, destructor, or type conversion before '(' token
+/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/skeleton.cpp:22: error: 'string' does not name a type
+/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/skeleton.cpp:124: error: 'string' does not name a type
+/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/skeleton.cpp:183: error: 'RemoteObjRef' does not name a type
+/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/skeleton.cpp:205: error: 'string' does not name a type
+/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/StockServer/skeleton.cpp:228: error: 'RemoteObjRef' does not name a type

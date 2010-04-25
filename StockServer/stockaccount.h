@@ -17,6 +17,7 @@ using namespace std;
 
 #include <pthread.h>
 
+#include "bankaccountproxy.h"
 #include "bankproxy.h"
 #include "stock.h"
 
@@ -37,7 +38,7 @@ public:
 private:
 	string name;
 	string password;
-	BankProxy bank;
+	BankAccountProxy bankaccount;
 	float cashbalance;
 	StockHolding stocks[NUMSTOCKS];
 	pthread_mutex_t lock;

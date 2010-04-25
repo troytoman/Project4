@@ -7,7 +7,6 @@ using namespace std;
 #include "remoteobj.h"
 #include "skeleton.h"
 
-
 //Global definitions for hostnames
 string StockServerHostName;
 string NameServerHostName;
