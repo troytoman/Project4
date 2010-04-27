@@ -21,7 +21,7 @@ class BankServantProxy {
 public:
 	BankServantProxy ();
 	BankAccountProxy createBankAccount (string name, string pass, string bankname) throw (string);
-	BankAccountProxy getBankAccount (string name, string pass, string bankname) throw (int);
+	BankAccountProxy getBankAccount (string name, string pass, string bankname) throw (string);
 	int	closeBankAccount (string name, string pass, string bankname);
 private:
 	RemoteObjRef remref;

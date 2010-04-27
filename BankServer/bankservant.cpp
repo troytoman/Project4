@@ -47,7 +47,6 @@ BankAccount * BankServant::createBankAccount(string acctname, string password, s
 	// Create new BankAccount object
 	cout << "In bankservant::create " << endl;
 
-	//Try
 	for (int b=0; b<MAXBANKS; b++) {
 		if (bank[b].getBankname() == bankname) {
 			return bank[b].createBankAccount(acctname, password);
@@ -83,10 +82,11 @@ int BankServant::closeBankAccount(string acctname, string password, string bankn
 	
 Bank::Bank () {
 	top =0;
+	pthread_mutex_init(&lock, NULL);
 };
 
 BankAccount * Bank::createBankAccount (string acctname, string passwd) throw (int) {
-	pthread_mutex_t lock;
+	
 		
 	// Create new BankAccount object
 	cout << "In bankservant::create " << endl;
@@ -96,6 +96,7 @@ BankAccount * Bank::createBankAccount (string acctname, string passwd) throw (in
 		
 	for (int i=0; i<top; i++) {
 		if (accountlist[i].getname() == acctname) {
+			pthread_mutex_unlock(&lock);
 			throw 1;
 		}
 	}
@@ -104,7 +105,7 @@ BankAccount * Bank::createBankAccount (string acctname, string passwd) throw (in
 	
 	top++;
 	
-	pthread_mutex_lock(&lock); //Unlock to keep protect
+	pthread_mutex_unlock(&lock); //Unlock to keep protect
 	
 	// Return ROR
 	return &accountlist[top-1];

@@ -91,7 +91,7 @@ private:
 class BankAccountSkeleton {
 public:
 	//	BankAccountSkeleton
-	BankAccountSkeleton() {nextid = 0;};
+	BankAccountSkeleton();
 	RemoteObjRef NewRemoteRef (BankAccount * localobj);
 	string invokelocal (char * buf);
 private:

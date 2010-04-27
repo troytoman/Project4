@@ -31,15 +31,15 @@ BankAccountProxy BankServantProxy::createBankAccount (string name, string pass, 
 	return newaccount;
 };
 
-BankAccountProxy BankServantProxy::getBankAccount (string name, string pass, string bankname) throw (int) {
+BankAccountProxy BankServantProxy::getBankAccount (string name, string pass, string bankname) throw (string) {
 	//Marshall the remote object call
 	string marshall = '2' + name + "#" + pass + "?" + bankname;
 	
 	//Call comms function
 	string commresult = rom.comm (remref, marshall);
 	
-	if (commresult[0] == '0') {
-		throw 0;
+	if (commresult[0] == '!') {
+		throw commresult;
 	}
 	
 	//Unmarshall the results

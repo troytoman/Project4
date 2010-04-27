@@ -66,7 +66,7 @@ void userinterface () {
 		cout << "Please choose one of the following options:" << endl;
 		cout << "1. Create account" << endl;
 		cout << "2. Get account" << endl;
-		cout << "3. Close account" << endl;
+		cout << "3. Close account" << endl << endl;
 		cout << "Option:";
 		cin >> choice;
 		
@@ -97,7 +97,7 @@ void userinterface () {
 		} else if (choice == 2) { //Get existing account
 			string pass;
 			
-			cout << "Get Stock Account" << endl;
+			cout << "\n\nGet Bank Account" << endl;
 			cout << "Name:";
 			cin >> name;
 			cout << "Password:";
@@ -108,17 +108,13 @@ void userinterface () {
 				bankaccount = bankserver.getBankAccount(name, pass, bank);
 				manageaccount(bankaccount);
 			}
-			catch (int e) {
-				if (e == 0) {
-					cout << "Account not found\n";
-				} else {
-					cout << "Error getting account\n";
-				}
+			catch (string output) {
+					cout << output;
 			}
 		} else if (choice == 3) { //Close Account
 			string pass;
 			
-			cout << "Close Stock Account" << endl;
+			cout << "\n\nClose Bank Account" << endl;
 			cout << "Name:";
 			cin >> name;
 			cout << "Password:";

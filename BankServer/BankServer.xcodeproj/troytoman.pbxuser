@@ -6,9 +6,17 @@
 		activeTarget = 8DD76F620486A84900D96B5E /* BankServer */;
 		addToTargets = (
 		);
+		breakpoints = (
+			26A64BFD1184F45B005C38AB /* remoteobj.cpp:158 */,
+			2698BE0811869242004499AF /* main.cpp:24 */,
+			2698BE18118693C6004499AF /* remoteobj.cpp:370 */,
+		);
 		codeSenseManager = 26906AB911839480007B2808 /* Code sense */;
 		executables = (
 			26906AAF11839475007B2808 /* BankServer */,
+		);
+		expressions = (
+			nextid,
 		);
 		perUserDictionary = {
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
@@ -33,26 +41,22 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 293915859;
-			PBXWorkspaceStateSaveDate = 293915859;
+			PBXPerProjectTemplateStateSaveDate = 294027423;
+			PBXWorkspaceStateSaveDate = 294027423;
 		};
 		perUserProjectItems = {
-			267AEB5A1184A84700623423 = 267AEB5A1184A84700623423 /* PBXTextBookmark */;
-			267AEB5B1184A84700623423 = 267AEB5B1184A84700623423 /* PBXTextBookmark */;
-			267AEC211184B76100623423 = 267AEC211184B76100623423 /* PBXTextBookmark */;
-			26965F961183AA6800970693 = 26965F961183AA6800970693 /* PBXTextBookmark */;
-			26A64B511184CCCB005C38AB = 26A64B511184CCCB005C38AB /* PBXTextBookmark */;
-			26A64B521184CCCB005C38AB = 26A64B521184CCCB005C38AB /* PBXTextBookmark */;
-			26A64B531184CCCB005C38AB = 26A64B531184CCCB005C38AB /* PBXTextBookmark */;
-			26A64B541184CCCB005C38AB = 26A64B541184CCCB005C38AB /* PBXTextBookmark */;
-			26A64B551184CCCB005C38AB = 26A64B551184CCCB005C38AB /* PBXTextBookmark */;
-			26A64B561184CCCB005C38AB = 26A64B561184CCCB005C38AB /* PBXTextBookmark */;
-			26A64B761184CDFC005C38AB /* XCBuildMessageTextBookmark */ = 26A64B761184CDFC005C38AB /* XCBuildMessageTextBookmark */;
-			26A64B771184CDFC005C38AB /* PBXTextBookmark */ = 26A64B771184CDFC005C38AB /* PBXTextBookmark */;
-			26A64B801184CE0A005C38AB /* PBXTextBookmark */ = 26A64B801184CE0A005C38AB /* PBXTextBookmark */;
-			26A64B811184CE0A005C38AB /* PBXTextBookmark */ = 26A64B811184CE0A005C38AB /* PBXTextBookmark */;
-			26A64B821184CE0A005C38AB /* XCBuildMessageTextBookmark */ = 26A64B821184CE0A005C38AB /* XCBuildMessageTextBookmark */;
-			26A64B831184CE0A005C38AB /* PBXTextBookmark */ = 26A64B831184CE0A005C38AB /* PBXTextBookmark */;
+			267AEB5A1184A84700623423 /* PBXTextBookmark */ = 267AEB5A1184A84700623423 /* PBXTextBookmark */;
+			267AEB5B1184A84700623423 /* PBXTextBookmark */ = 267AEB5B1184A84700623423 /* PBXTextBookmark */;
+			2698BE1A118693CB004499AF /* PBXTextBookmark */ = 2698BE1A118693CB004499AF /* PBXTextBookmark */;
+			2698BE1E118693CB004499AF /* PBXTextBookmark */ = 2698BE1E118693CB004499AF /* PBXTextBookmark */;
+			2698BE2211869551004499AF /* PBXTextBookmark */ = 2698BE2211869551004499AF /* PBXTextBookmark */;
+			2698BE2411869551004499AF /* PBXTextBookmark */ = 2698BE2411869551004499AF /* PBXTextBookmark */;
+			2698BE2511869551004499AF /* PBXTextBookmark */ = 2698BE2511869551004499AF /* PBXTextBookmark */;
+			2698BE2611869551004499AF /* PBXTextBookmark */ = 2698BE2611869551004499AF /* PBXTextBookmark */;
+			2698BE2711869551004499AF /* PBXTextBookmark */ = 2698BE2711869551004499AF /* PBXTextBookmark */;
+			2698BE2811869551004499AF /* PBXTextBookmark */ = 2698BE2811869551004499AF /* PBXTextBookmark */;
+			2698BE341186982B004499AF /* PBXTextBookmark */ = 2698BE341186982B004499AF /* PBXTextBookmark */;
+			2698BE691186A916004499AF /* PBXTextBookmark */ = 2698BE691186A916004499AF /* PBXTextBookmark */;
 		};
 		sourceControlManager = 26906AB811839480007B2808 /* Source Control */;
 		userBuildSettings = {
@@ -60,8 +64,8 @@
 	};
 	08FB7796FE84155DC02AAC07 /* main.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 572}}";
-			sepNavSelRange = "{252, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {962, 745}}";
+			sepNavSelRange = "{643, 0}";
 			sepNavVisRange = "{0, 793}";
 		};
 	};
@@ -92,16 +96,6 @@
 		vrLen = 43;
 		vrLoc = 0;
 	};
-	267AEC211184B76100623423 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 26906AC211839509007B2808 /* remoteobj.h */;
-		name = "remoteobj.h: 41";
-		rLen = 0;
-		rLoc = 938;
-		rType = 0;
-		vrLen = 914;
-		vrLoc = 1212;
-	};
 	26906AAF11839475007B2808 /* BankServer */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -131,6 +125,8 @@
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
+		variableFormatDictionary = {
+		};
 	};
 	26906AB811839480007B2808 /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -155,174 +151,219 @@
 	};
 	26906AC111839509007B2808 /* remoteobj.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 5512}}";
-			sepNavSelRange = "{10274, 0}";
-			sepNavVisRange = "{9741, 773}";
+			sepNavIntBoundsRect = "{{0, 0}, {962, 5473}}";
+			sepNavSelRange = "{10433, 0}";
+			sepNavVisRange = "{9612, 1083}";
 		};
 	};
 	26906AC211839509007B2808 /* remoteobj.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 1365}}";
-			sepNavSelRange = "{938, 0}";
-			sepNavVisRange = "{1212, 914}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1378}}";
+			sepNavSelRange = "{2213, 6}";
+			sepNavVisRange = "{1597, 785}";
 		};
 	};
 	26906AC511839509007B2808 /* bankaccount.cpp */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1171, 702}}";
-			sepNavSelRange = "{527, 0}";
-			sepNavVisRange = "{167, 781}";
+			sepNavSelRange = "{576, 0}";
+			sepNavVisRange = "{235, 761}";
+			sepNavWindowFrame = "{{15, 276}, {1057, 597}}";
 		};
 	};
 	26906AC611839509007B2808 /* bankaccount.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1171, 520}}";
 			sepNavSelRange = "{282, 0}";
-			sepNavVisRange = "{0, 742}";
+			sepNavVisRange = "{22, 720}";
 		};
 	};
 	26906AC811839509007B2808 /* bankservant.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 1651}}";
-			sepNavSelRange = "{707, 0}";
-			sepNavVisRange = "{23, 1172}";
+			sepNavIntBoundsRect = "{{0, 0}, {754, 1872}}";
+			sepNavSelRange = "{2219, 0}";
+			sepNavVisRange = "{2069, 293}";
 			sepNavWindowFrame = "{{15, 276}, {1057, 597}}";
 		};
 	};
 	26906AC911839509007B2808 /* bankservant.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 689}}";
-			sepNavSelRange = "{199, 0}";
-			sepNavVisRange = "{0, 917}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 715}}";
+			sepNavSelRange = "{578, 0}";
+			sepNavVisRange = "{0, 847}";
 		};
 	};
-	26965F961183AA6800970693 /* PBXTextBookmark */ = {
+	2698BE0811869242004499AF /* main.cpp:24 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		functionName = "main (int argc, char * const argv[])";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 24;
+		location = StockServer;
+		modificationTime = 294034926.5062;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	2698BE18118693C6004499AF /* remoteobj.cpp:370 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 26906AC111839509007B2808 /* remoteobj.cpp */;
+		functionName = "BankAccountSkeleton::invokelocal(char * buf)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 370;
+		location = StockServer;
+		modificationTime = 294034926.506227;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	2698BE1A118693CB004499AF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
-		name = "main.cpp: 15";
+		name = "main.cpp: 36";
 		rLen = 0;
-		rLoc = 252;
+		rLoc = 643;
 		rType = 0;
-		vrLen = 793;
+		vrLen = 706;
 		vrLoc = 0;
 	};
-	26A64B511184CCCB005C38AB /* PBXTextBookmark */ = {
+	2698BE1E118693CB004499AF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 26906AC111839509007B2808 /* remoteobj.cpp */;
-		name = "remoteobj.cpp: 399";
-		rLen = 0;
-		rLoc = 10274;
+		fRef = 26906AC211839509007B2808 /* remoteobj.h */;
+		name = "remoteobj.h: 98";
+		rLen = 6;
+		rLoc = 2213;
 		rType = 0;
-		vrLen = 773;
-		vrLoc = 9741;
+		vrLen = 761;
+		vrLoc = 1621;
 	};
-	26A64B521184CCCB005C38AB /* PBXTextBookmark */ = {
+	2698BE2211869551004499AF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 26906AC611839509007B2808 /* bankaccount.h */;
-		name = "bankaccount.h: 19";
+		fRef = 2698BE2311869551004499AF /* ios_base.h */;
+		name = "ios_base.h: 124";
 		rLen = 0;
-		rLoc = 282;
+		rLoc = 4113;
 		rType = 0;
-		vrLen = 742;
+		vrLen = 1056;
+		vrLoc = 3413;
+	};
+	2698BE2311869551004499AF /* ios_base.h */ = {
+		isa = PBXFileReference;
+		name = ios_base.h;
+		path = "/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.0.0/bits/ios_base.h";
+		sourceTree = "<absolute>";
+	};
+	2698BE2411869551004499AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 26906AC911839509007B2808 /* bankservant.h */;
+		name = "bankservant.h: 27";
+		rLen = 0;
+		rLoc = 578;
+		rType = 0;
+		vrLen = 847;
 		vrLoc = 0;
 	};
-	26A64B531184CCCB005C38AB /* PBXTextBookmark */ = {
+	2698BE2511869551004499AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 26A64BEA1184F1C6005C38AB /* basic_string.h */;
+		name = "basic_string.h: 2116";
+		rLen = 0;
+		rLoc = 79286;
+		rType = 0;
+		vrLen = 1373;
+		vrLoc = 78550;
+	};
+	2698BE2611869551004499AF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 26906AC511839509007B2808 /* bankaccount.cpp */;
-		name = "bankaccount.cpp: 33";
+		name = "bankaccount.cpp: 34";
 		rLen = 0;
-		rLoc = 527;
+		rLoc = 576;
 		rType = 0;
-		vrLen = 781;
-		vrLoc = 167;
+		vrLen = 761;
+		vrLoc = 235;
 	};
-	26A64B541184CCCB005C38AB /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 26906AC911839509007B2808 /* bankservant.h */;
-		name = "bankservant.h: 13";
-		rLen = 0;
-		rLoc = 199;
-		rType = 0;
-		vrLen = 917;
-		vrLoc = 0;
-	};
-	26A64B551184CCCB005C38AB /* PBXTextBookmark */ = {
+	2698BE2711869551004499AF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 26906AC811839509007B2808 /* bankservant.cpp */;
-		name = "bankservant.cpp: 26";
+		name = "bankservant.cpp: 119";
 		rLen = 0;
-		rLoc = 650;
+		rLoc = 2963;
 		rType = 0;
-		vrLen = 1085;
-		vrLoc = 0;
+		vrLen = 743;
+		vrLoc = 1391;
 	};
-	26A64B561184CCCB005C38AB /* PBXTextBookmark */ = {
+	2698BE2811869551004499AF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 26906AC811839509007B2808 /* bankservant.cpp */;
-		name = "bankservant.cpp: 26";
+		fRef = 26906AC111839509007B2808 /* remoteobj.cpp */;
+		name = "remoteobj.cpp: 327";
 		rLen = 0;
-		rLoc = 650;
+		rLoc = 8505;
 		rType = 0;
-		vrLen = 1207;
-		vrLoc = 23;
+		vrLen = 844;
+		vrLoc = 9791;
 	};
-	26A64B761184CDFC005C38AB /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "Request for member 'deposit' in 'acct', which is of non-class type 'BankAccount*'";
-		fRef = 26906AC811839509007B2808 /* bankservant.cpp */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 26;
-		rType = 1;
-	};
-	26A64B771184CDFC005C38AB /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 26906AC811839509007B2808 /* bankservant.cpp */;
-		name = "bankservant.cpp: 25";
-		rLen = 0;
-		rLoc = 650;
-		rType = 0;
-		vrLen = 373;
-		vrLoc = 456;
-	};
-	26A64B801184CE0A005C38AB /* PBXTextBookmark */ = {
+	2698BE341186982B004499AF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 26906AC611839509007B2808 /* bankaccount.h */;
 		name = "bankaccount.h: 19";
 		rLen = 0;
 		rLoc = 282;
 		rType = 0;
-		vrLen = 742;
-		vrLoc = 0;
+		vrLen = 720;
+		vrLoc = 22;
 	};
-	26A64B811184CE0A005C38AB /* PBXTextBookmark */ = {
+	2698BE691186A916004499AF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 26906AC911839509007B2808 /* bankservant.h */;
-		name = "bankservant.h: 13";
-		rLen = 0;
-		rLoc = 199;
+		fRef = 26906AC211839509007B2808 /* remoteobj.h */;
+		name = "remoteobj.h: 98";
+		rLen = 6;
+		rLoc = 2213;
 		rType = 0;
-		vrLen = 917;
-		vrLoc = 0;
+		vrLen = 785;
+		vrLoc = 1597;
 	};
-	26A64B821184CE0A005C38AB /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "Request for member 'deposit' in 'acct', which is of non-class type 'BankAccount*'";
-		fRef = 26906AC811839509007B2808 /* bankservant.cpp */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 26;
-		rType = 1;
+	26A64BEA1184F1C6005C38AB /* basic_string.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = basic_string.h;
+		path = "/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.0.0/bits/basic_string.h";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 31707}}";
+			sepNavSelRange = "{79286, 0}";
+			sepNavVisRange = "{78550, 1373}";
+		};
 	};
-	26A64B831184CE0A005C38AB /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 26906AC811839509007B2808 /* bankservant.cpp */;
-		name = "bankservant.cpp: 27";
-		rLen = 0;
-		rLoc = 743;
-		rType = 0;
-		vrLen = 1172;
-		vrLoc = 23;
+	26A64BFD1184F45B005C38AB /* remoteobj.cpp:158 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 26906AC111839509007B2808 /* remoteobj.cpp */;
+		functionName = "dispatcher(void * parm)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 158;
+		location = StockServer;
+		modificationTime = 294034926.506001;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
 	};
 	8DD76F620486A84900D96B5E /* BankServer */ = {
 		activeExec = 0;

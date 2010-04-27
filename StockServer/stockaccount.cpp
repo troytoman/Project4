@@ -86,14 +86,21 @@ void StockAccount::addinfo (string nam, string pwd, string bnk) {
 	
 	//Get the bank remote object reference
 	bankaccount = bankserv.getBankAccount(nam, pwd, bnk);
-}
+};
 
 int StockAccount::checkAccount (string n, string p) {
 	if (!(name.compare(n)) && !(password.compare(p)))
 		return (1);
 	else
 		return (0);
+};
+
+void StockAccount::close () {
+	this->Transfer('1', cashbalance);   //Put money back in the bank
+	name = "";        //Clear name
+	password == "";   //Clear password
 }
+	
 
 void StockAccount::Transfer (char type, float amount) {
 	pthread_mutex_lock(&lock);
@@ -112,4 +119,4 @@ void StockAccount::Transfer (char type, float amount) {
 
 	}
 	pthread_mutex_unlock(&lock);
-}
+};

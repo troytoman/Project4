@@ -26,7 +26,7 @@ private:
 	// List of stock accounts
 	StockAccount salist[MAXACCOUNTS];
 	int top;
-	
+	pthread_mutex_t lock;
 };
 
 #endif

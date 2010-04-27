@@ -317,7 +317,11 @@ string BankServantSkeleton::invokelocal(char * buf) {
 		
 		cout << "Name: " << acctname << " Pass: " << password << endl;
 		
-		result = local->getBankAccount(acctname, password, bankname); //Call method
+		try {
+			result = local->getBankAccount(acctname, password, bankname); //Call method
+		} catch (int n) {
+			return "!Account not found!";
+		}
 		
 		//Get a remoteobjref for the result
 		if (result == 0)
@@ -349,6 +353,9 @@ string BankServantSkeleton::invokelocal(char * buf) {
 	return "0";
 
 };
+
+//BankAccount Skeleton Constructor
+BankAccountSkeleton::BankAccountSkeleton() {nextid = 0; cout << "NEXTID\n"; };
 
 // BankAccount Skeleton - invokelocal method
 // - Unmarshall the data in the buffer

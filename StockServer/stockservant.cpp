@@ -13,25 +13,26 @@
 // in the list of accounts. This limits the number of accounts to no more than MAXACCOUNTS
 StockServant::StockServant () {
 	top = 0;
+	pthread_mutex_init(&lock, NULL);
+	
 	
 	//Create default stock accounts
-	this->createStockAccount("Troy", "pass", "BofA");
-	salist[top-1].Transfer(2, 10000);
-	salist[top-1].buyStock("ARRY", 100);
-	salist[top-1].buyStock("HGSI", 100);
-	this->createStockAccount("Pam", "pass", "Wells");
-	salist[top-1].Transfer(2, 20000);
-	salist[top-1].buyStock("FITB", 100);
-	salist[top-1].buyStock("BPOP", 100);
-	salist[top-1].buyStock("INTC", 100);
-	salist[top-1].buyStock("IBM", 100);
+	StockAccount * sa = this->createStockAccount("Troy", "pass", "BofA");
+	sa->Transfer(2, 10000);
+	sa->buyStock("ARRY", 100);
+	sa->buyStock("HGSI", 100);
+	StockAccount * sa1 = this->createStockAccount("Pam", "pass", "Wells");
+	sa1->Transfer(2, 20000);
+	sa1->buyStock("FITB", 100);
+	sa1->buyStock("BPOP", 100);
+	sa1->buyStock("INTC", 100);
+    sa1->buyStock("IBM", 100);
 };
 
 // The createStockAccount method will create a new instance of a StockAccount object and add it to the list
 // of accounts. It will create a RemObjRef that it will store in the list and return as
 // the result of the method call.
 StockAccount * StockServant::createStockAccount(string name, string password, string bank) throw (int) {
-	pthread_mutex_t lock;
 
 	// Create new StockAccount object
 	cout << "In stockservant::create " << endl;
@@ -40,6 +41,7 @@ StockAccount * StockServant::createStockAccount(string name, string password, st
 	
 	for (int i=0; i<top; i++) {
 		if (salist[i].getname() == name) {
+			pthread_mutex_unlock(&lock);
 			throw 1;
 		}
 	}
@@ -48,7 +50,7 @@ StockAccount * StockServant::createStockAccount(string name, string password, st
 	
 	top++;
 	
-	pthread_mutex_lock(&lock); //Lock to keep protect
+	pthread_mutex_unlock(&lock); //unlock to keep protect
 	
 	// Return ROR
 	return &salist[top-1];
@@ -70,8 +72,8 @@ StockAccount * StockServant::getStockAccount(string nm, string pwd){
 // if the password matches the account.
 int StockServant::closeStockAccount(string n, string p) {
 	for (int i=0; i<=top; i++) {
-		if (salist[i].checkAccount(n, p)) {
-			salist[i].addinfo("", "", "");
+		if (salist[i].checkAccount(n, p)) {  //Check the password on the account
+			salist[i].close();
 			return 1;
 		}
 	}
