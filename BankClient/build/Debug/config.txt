@@ -1,2 +1,2 @@
-n ipadtest
+n nameserver
 

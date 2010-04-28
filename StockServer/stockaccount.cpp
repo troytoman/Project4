@@ -96,6 +96,11 @@ int StockAccount::checkAccount (string n, string p) {
 };
 
 void StockAccount::close () {
+	for (int i=0; i<NUMSTOCKS; i++) {
+		if (stocks[i].stocksymbol() != "NULL") {
+			this->sellStock(stocks[i].stocksymbol(),stocks[i].numshares());
+		}
+	}
 	this->Transfer('1', cashbalance);   //Put money back in the bank
 	name = "";        //Clear name
 	password == "";   //Clear password

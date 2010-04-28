@@ -12,7 +12,7 @@ RemoteObjModule rom;
 BankServantProxy bankserver;
 
 int manageaccount(BankAccountProxy bankacct) {	
-	int choice;
+	string choice;
 	string s;
 	float amount;
 	
@@ -29,34 +29,38 @@ int manageaccount(BankAccountProxy bankacct) {
 		cout << "Option: ";
 		cin >> choice;
 		
-		if (choice == 1) {  //View account
+		if (choice == "1") {  //View account
 			
 			bankacct.viewAccount();
 			
-		} else if (choice == 2) { //Deposit
+		} else if (choice == "2") { //Deposit
 			
-			cout << "Amount: $";
+			cout << endl << endl << "Amount: $";
 			cin >> amount;
 			cout << endl << endl;
 			
 			bankacct.deposit(amount);
 
-		} else if (choice == 3) { //Withdraw
+		} else if (choice == "3") { //Withdraw
 			
-			cout << "Amount: $";
+			cout << endl << endl << "Amount: $";
 			cin >> amount;
 			cout << endl << endl;
 			
 			bankacct.withdraw(amount);
 			
-		} else if (choice == 4) { //Return to Main Menu
+		} else if (choice == "4") { //Return to Main Menu
 			return 1;
+		} else {
+			cout << endl << endl << "Please make a valid selection" << endl << endl;		
 		}
+
 	}
 }
 
 void userinterface () {
-	int logoff, choice;
+	int logoff;
+	string choice;
 	string name, bank;
 	BankAccountProxy bankaccount;
 	
@@ -72,11 +76,11 @@ void userinterface () {
 		
 		cout << choice << endl;
 		
-		if (choice == 1) { //Create account
+		if (choice == "1") { //Create account
 			string pass1("1");
 			string pass2("2");
 			
-			cout << "Create New Bank Account" << endl;
+			cout << endl << endl << "Create New Bank Account" << endl;
 			cout << "Name:";
 			cin >> name;
 			while (pass1 != pass2) {
@@ -88,16 +92,21 @@ void userinterface () {
 			cout << "Bank:";
 			cin >> bank;
 			try {
+				cout << endl << endl;
+
 				bankaccount = bankserver.createBankAccount (name, pass1, bank);
 				manageaccount(bankaccount);
+
+				cout << endl << endl;
+
 			}
 			catch (string output) {
 				cout << endl << endl << output << endl << endl;
 			}
-		} else if (choice == 2) { //Get existing account
+		} else if (choice == "2") { //Get existing account
 			string pass;
 			
-			cout << "\n\nGet Bank Account" << endl;
+			cout << endl << endl << "Get Bank Account" << endl;
 			cout << "Name:";
 			cin >> name;
 			cout << "Password:";
@@ -105,13 +114,16 @@ void userinterface () {
 			cout << "Bank:";
 			cin >> bank;
 			try {
+				cout << endl << endl;
+
 				bankaccount = bankserver.getBankAccount(name, pass, bank);
 				manageaccount(bankaccount);
+				cout << endl << endl;
 			}
 			catch (string output) {
 					cout << output;
 			}
-		} else if (choice == 3) { //Close Account
+		} else if (choice == "3") { //Close Account
 			string pass;
 			
 			cout << "\n\nClose Bank Account" << endl;
@@ -122,10 +134,13 @@ void userinterface () {
 			cout << "Bank:";
 			cin >> bank;
 
+			cout << endl << endl;
+
 		    bankserver.closeBankAccount(name, pass, bank);
-			
+			cout << endl << endl;
+
 		} else {
-			logoff == 1;
+			cout << endl << endl << "Please make a valid selection" << endl << endl;		
 		}
 	}
 };

@@ -41,14 +41,15 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 294027423;
-			PBXWorkspaceStateSaveDate = 294027423;
+			PBXPerProjectTemplateStateSaveDate = 294104952;
+			PBXWorkspaceStateSaveDate = 294104952;
 		};
 		perUserProjectItems = {
 			267AEB5A1184A84700623423 /* PBXTextBookmark */ = 267AEB5A1184A84700623423 /* PBXTextBookmark */;
 			267AEB5B1184A84700623423 /* PBXTextBookmark */ = 267AEB5B1184A84700623423 /* PBXTextBookmark */;
+			2684F0871187AF7F002C83E3 /* PBXTextBookmark */ = 2684F0871187AF7F002C83E3 /* PBXTextBookmark */;
+			2684F0C511887514002C83E3 /* PBXTextBookmark */ = 2684F0C511887514002C83E3 /* PBXTextBookmark */;
 			2698BE1A118693CB004499AF /* PBXTextBookmark */ = 2698BE1A118693CB004499AF /* PBXTextBookmark */;
-			2698BE1E118693CB004499AF /* PBXTextBookmark */ = 2698BE1E118693CB004499AF /* PBXTextBookmark */;
 			2698BE2211869551004499AF /* PBXTextBookmark */ = 2698BE2211869551004499AF /* PBXTextBookmark */;
 			2698BE2411869551004499AF /* PBXTextBookmark */ = 2698BE2411869551004499AF /* PBXTextBookmark */;
 			2698BE2511869551004499AF /* PBXTextBookmark */ = 2698BE2511869551004499AF /* PBXTextBookmark */;
@@ -56,7 +57,6 @@
 			2698BE2711869551004499AF /* PBXTextBookmark */ = 2698BE2711869551004499AF /* PBXTextBookmark */;
 			2698BE2811869551004499AF /* PBXTextBookmark */ = 2698BE2811869551004499AF /* PBXTextBookmark */;
 			2698BE341186982B004499AF /* PBXTextBookmark */ = 2698BE341186982B004499AF /* PBXTextBookmark */;
-			2698BE691186A916004499AF /* PBXTextBookmark */ = 2698BE691186A916004499AF /* PBXTextBookmark */;
 		};
 		sourceControlManager = 26906AB811839480007B2808 /* Source Control */;
 		userBuildSettings = {
@@ -95,6 +95,26 @@
 		rType = 0;
 		vrLen = 43;
 		vrLoc = 0;
+	};
+	2684F0871187AF7F002C83E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 26906AC211839509007B2808 /* remoteobj.h */;
+		name = "remoteobj.h: 98";
+		rLen = 6;
+		rLoc = 2213;
+		rType = 0;
+		vrLen = 785;
+		vrLoc = 1597;
+	};
+	2684F0C511887514002C83E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 26906AC211839509007B2808 /* remoteobj.h */;
+		name = "remoteobj.h: 98";
+		rLen = 6;
+		rLoc = 2213;
+		rType = 0;
+		vrLen = 785;
+		vrLoc = 1597;
 	};
 	26906AAF11839475007B2808 /* BankServer */ = {
 		isa = PBXExecutable;
@@ -158,7 +178,7 @@
 	};
 	26906AC211839509007B2808 /* remoteobj.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 1378}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1352}}";
 			sepNavSelRange = "{2213, 6}";
 			sepNavVisRange = "{1597, 785}";
 		};
@@ -239,16 +259,6 @@
 		vrLen = 706;
 		vrLoc = 0;
 	};
-	2698BE1E118693CB004499AF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 26906AC211839509007B2808 /* remoteobj.h */;
-		name = "remoteobj.h: 98";
-		rLen = 6;
-		rLoc = 2213;
-		rType = 0;
-		vrLen = 761;
-		vrLoc = 1621;
-	};
 	2698BE2211869551004499AF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 2698BE2311869551004499AF /* ios_base.h */;
@@ -261,6 +271,7 @@
 	};
 	2698BE2311869551004499AF /* ios_base.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = ios_base.h;
 		path = "/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.0.0/bits/ios_base.h";
 		sourceTree = "<absolute>";
@@ -325,27 +336,12 @@
 		vrLen = 720;
 		vrLoc = 22;
 	};
-	2698BE691186A916004499AF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 26906AC211839509007B2808 /* remoteobj.h */;
-		name = "remoteobj.h: 98";
-		rLen = 6;
-		rLoc = 2213;
-		rType = 0;
-		vrLen = 785;
-		vrLoc = 1597;
-	};
 	26A64BEA1184F1C6005C38AB /* basic_string.h */ = {
 		isa = PBXFileReference;
 		lastKnownFileType = sourcecode.c.h;
 		name = basic_string.h;
 		path = "/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.0.0/bits/basic_string.h";
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 31707}}";
-			sepNavSelRange = "{79286, 0}";
-			sepNavVisRange = "{78550, 1373}";
-		};
 	};
 	26A64BFD1184F45B005C38AB /* remoteobj.cpp:158 */ = {
 		isa = PBXFileBreakpoint;
@@ -361,7 +357,7 @@
 		ignoreCount = 0;
 		lineNumber = 158;
 		location = StockServer;
-		modificationTime = 294034926.506001;
+		modificationTime = 294034926.5060011;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};

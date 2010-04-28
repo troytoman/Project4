@@ -33,13 +33,13 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 293911302;
-			PBXWorkspaceStateSaveDate = 293911302;
+			PBXPerProjectTemplateStateSaveDate = 294104928;
+			PBXWorkspaceStateSaveDate = 294104928;
 		};
 		perUserProjectItems = {
-			267AEC4C1184BC0200623423 /* PBXTextBookmark */ = 267AEC4C1184BC0200623423 /* PBXTextBookmark */;
-			267AEC4D1184BC0200623423 /* PBXTextBookmark */ = 267AEC4D1184BC0200623423 /* PBXTextBookmark */;
-			267AEC4E1184BC0200623423 /* PBXTextBookmark */ = 267AEC4E1184BC0200623423 /* PBXTextBookmark */;
+			2684F0BC11887514002C83E3 /* PBXTextBookmark */ = 2684F0BC11887514002C83E3 /* PBXTextBookmark */;
+			2684F0BD11887514002C83E3 /* PBXTextBookmark */ = 2684F0BD11887514002C83E3 /* PBXTextBookmark */;
+			2684F0BE11887514002C83E3 /* PBXTextBookmark */ = 2684F0BE11887514002C83E3 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 26BE6EF8117B495A00DCC1CB /* Source Control */;
 		userBuildSettings = {
@@ -47,13 +47,23 @@
 	};
 	08FB7796FE84155DC02AAC07 /* main.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 1573}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1599}}";
 			sepNavSelRange = "{2492, 0}";
-			sepNavVisRange = "{1875, 1080}";
+			sepNavVisRange = "{1939, 1035}";
 			sepNavWindowFrame = "{{268, 45}, {1057, 597}}";
 		};
 	};
-	267AEC4C1184BC0200623423 /* PBXTextBookmark */ = {
+	2684F0BC11887514002C83E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		name = "main.cpp: 100";
+		rLen = 0;
+		rLoc = 2492;
+		rType = 0;
+		vrLen = 1035;
+		vrLoc = 1939;
+	};
+	2684F0BD11887514002C83E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 26BE71E3117BF0F500DCC1CB /* NameServer.h */;
 		name = "NameServer.h: 43";
@@ -63,25 +73,15 @@
 		vrLen = 611;
 		vrLoc = 128;
 	};
-	267AEC4D1184BC0200623423 /* PBXTextBookmark */ = {
+	2684F0BE11887514002C83E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
-		name = "main.cpp: 1";
+		fRef = 26BE71E3117BF0F500DCC1CB /* NameServer.h */;
+		name = "NameServer.h: 43";
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 692;
 		rType = 0;
-		vrLen = 1148;
-		vrLoc = 0;
-	};
-	267AEC4E1184BC0200623423 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
-		name = "main.cpp: 100";
-		rLen = 0;
-		rLoc = 2492;
-		rType = 0;
-		vrLen = 1080;
-		vrLoc = 1875;
+		vrLen = 611;
+		vrLoc = 128;
 	};
 	26BE6EED117B494900DCC1CB /* NameServer */ = {
 		isa = PBXExecutable;

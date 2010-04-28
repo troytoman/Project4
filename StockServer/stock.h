@@ -54,6 +54,7 @@ public:
 	string stocksymbol() { return s->getsymbol(); };
 	int setStock(string stocksymbol);
 	string view();
+	int numshares() { return shares; };
 private:
 	Stock * s;
 	int shares;

@@ -1,7 +1,7 @@
 TBankClient
 v7
 r0
-t293925991.373096
+t294103692.359892
 cCheck dependencies
 cCompileC build/BankClient.build/Debug/BankClient.build/Objects-normal/x86_64/main.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 cCompileC build/BankClient.build/Debug/BankClient.build/Objects-normal/x86_64/bankproxy.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/bankproxy.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
@@ -70,9 +70,9 @@ t1247548583
 s22078
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/bankaccountproxy.cpp
-c000000004BD45B9D000000000000046B
-t1272208285
-s1131
+c000000004BD76FBF0000000000000471
+t1272410047
+s1137
 i"bankaccountproxy.h"
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/bankaccountproxy.h
@@ -104,7 +104,7 @@ t1272208187
 s633
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/Objects-normal/x86_64/bankaccountproxy.o
-t1272216444
+t1272410048
 s87048
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/Objects-normal/x86_64/bankproxy.o
@@ -112,21 +112,21 @@ t1272232698
 s65132
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/Objects-normal/x86_64/main.o
-t1272232698
-s91008
+t1272410892
+s93396
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/Objects-normal/x86_64/remoteobjref.o
 t1272216444
 s102560
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/Debug/BankClient
-t1272232698
-s55496
+t1272410892
+s55880
 
 N/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/main.cpp
-c000000004BD4BAD50000000000000ADB
-t1272232661
-s2779
+c000000004BD7730B0000000000000C64
+t1272410891
+s3172
 i<iostream>
 i<string>
 i"remoteobjref.h"
@@ -162,11 +162,11 @@ i<signal.h>
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies293925991#293925991#0(0"0(0#1#0"4300911832#0"0#
+lSLF07#2@18"Check dependencies294103691#294103692#0(0"0(0#1#0"4300911832#0"0#
 
 CCompileC build/BankClient.build/Debug/BankClient.build/Objects-normal/x86_64/bankaccountproxy.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/bankaccountproxy.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-s293909243.883608
-e293909244.463513
+s294102847.736781
+e294102848.568296
 r1
 xCompileC
 xbuild/BankClient.build/Debug/BankClient.build/Objects-normal/x86_64/bankaccountproxy.o
@@ -175,7 +175,7 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@105"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/bankaccountproxy.cpp293909243#293909244#0(0"0(0#0#97"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/bankaccountproxy.cpp4300911832#1809"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/BankClient-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/BankClient-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/BankClient-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/BankClient-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/bankaccountproxy.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/Objects-normal/x86_64/bankaccountproxy.o"0#
+lSLF07#2@105"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/bankaccountproxy.cpp294102847#294102848#0(0"0(0#0#97"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/bankaccountproxy.cpp7307775882124293120#1809"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/BankClient-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/BankClient-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/BankClient-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/BankClient-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/bankaccountproxy.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/Objects-normal/x86_64/bankaccountproxy.o"0#
 
 CCompileC build/BankClient.build/Debug/BankClient.build/Objects-normal/x86_64/bankproxy.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/bankproxy.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s293925497.735922
@@ -191,8 +191,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@98"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/bankproxy.cpp293925497#293925498#0(0"0(0#0#90"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/bankproxy.cpp4300911832#1795"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/BankClient-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/BankClient-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/BankClient-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/BankClient-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/bankproxy.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/Objects-normal/x86_64/bankproxy.o"0#
 
 CCompileC build/BankClient.build/Debug/BankClient.build/Objects-normal/x86_64/main.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-s293925497.734735
-e293925498.185077
+s294103691.981852
+e294103692.334289
 r1
 xCompileC
 xbuild/BankClient.build/Debug/BankClient.build/Objects-normal/x86_64/main.o
@@ -201,7 +201,7 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@93"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/main.cpp293925497#293925498#0(0"0(0#0#85"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/main.cpp4300911832#1785"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/BankClient-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/BankClient-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/BankClient-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/BankClient-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/main.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/Objects-normal/x86_64/main.o"0#
+lSLF07#2@93"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/main.cpp294103691#294103692#0(0"0(0#0#85"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/main.cpp4300911832#1785"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/BankClient-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/BankClient-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/BankClient-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/BankClient-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/main.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/Objects-normal/x86_64/main.o"0#
 
 CCompileC build/BankClient.build/Debug/BankClient.build/Objects-normal/x86_64/remoteobjref.o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/remoteobjref.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s293909243.884612
@@ -217,12 +217,12 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@101"Compile /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/remoteobjref.cpp293909243#293909244#0(0"0(0#0#93"/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/remoteobjref.cpp4300911832#1801"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/BankClient-generated-files.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/BankClient-own-target-headers.hmap" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/BankClient-all-target-headers.hmap" -iquote "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/BankClient-project-headers.hmap" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/Debug" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/Debug/include" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/DerivedSources/x86_64" "-I/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/DerivedSources" -c "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/remoteobjref.cpp" -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/Objects-normal/x86_64/remoteobjref.o"0#
 
 CLd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/Debug/BankClient" normal x86_64
-s293925498.185199
-e293925498.203223
+s294103692.334382
+e294103692.359843
 r1
 xLd
 x/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/Debug/BankClient
 xnormal
 xx86_64
-lSLF07#2@104"Link /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/Debug/BankClient293925498#293925498#0(0"0(0#0#0"4300911832#710"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/Debug" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/Debug" -filelist "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/Objects-normal/x86_64/BankClient.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/Debug/BankClient"0#
+lSLF07#2@104"Link /Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/Debug/BankClient294103692#294103692#0(0"0(0#0#0"4300911832#710"    cd "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/Debug" "-F/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/Debug" -filelist "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/BankClient.build/Debug/BankClient.build/Objects-normal/x86_64/BankClient.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/troytoman/Documents/UTSA/CS5523-Operating Systems/Project4/BankClient/build/Debug/BankClient"0#
 

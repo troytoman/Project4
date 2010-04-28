@@ -34,18 +34,18 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 294019696;
-			PBXWorkspaceStateSaveDate = 294019696;
+			PBXPerProjectTemplateStateSaveDate = 294103521;
+			PBXWorkspaceStateSaveDate = 294103521;
 		};
 		perUserProjectItems = {
 			267AEB431184A7D100623423 /* PBXTextBookmark */ = 267AEB431184A7D100623423 /* PBXTextBookmark */;
 			267AEB441184A7D100623423 /* PBXTextBookmark */ = 267AEB441184A7D100623423 /* PBXTextBookmark */;
 			267AEB741184A86E00623423 /* PBXTextBookmark */ = 267AEB741184A86E00623423 /* PBXTextBookmark */;
-			267AEB751184A86E00623423 /* PBXTextBookmark */ = 267AEB751184A86E00623423 /* PBXTextBookmark */;
-			2698BD8411866286004499AF /* PBXTextBookmark */ = 2698BD8411866286004499AF /* PBXTextBookmark */;
+			2684F0291187A7A2002C83E3 /* PBXTextBookmark */ = 2684F0291187A7A2002C83E3 /* PBXTextBookmark */;
+			2684F02A1187A7A2002C83E3 /* PBXTextBookmark */ = 2684F02A1187A7A2002C83E3 /* PBXTextBookmark */;
+			2684F0A111887513002C83E3 /* PBXTextBookmark */ = 2684F0A111887513002C83E3 /* PBXTextBookmark */;
+			26A35C151187A4AE0001EA15 /* PBXTextBookmark */ = 26A35C151187A4AE0001EA15 /* PBXTextBookmark */;
 			26A64C1B1185B43F005C38AB /* PBXTextBookmark */ = 26A64C1B1185B43F005C38AB /* PBXTextBookmark */;
-			26A64C1C1185B43F005C38AB /* PBXTextBookmark */ = 26A64C1C1185B43F005C38AB /* PBXTextBookmark */;
-			26A64C1E1185B43F005C38AB /* PBXTextBookmark */ = 26A64C1E1185B43F005C38AB /* PBXTextBookmark */;
 		};
 		sourceControlManager = 267AEA9F11848E5400623423 /* Source Control */;
 		userBuildSettings = {
@@ -53,9 +53,9 @@
 	};
 	08FB7796FE84155DC02AAC07 /* main.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 1807}}";
-			sepNavSelRange = "{2383, 0}";
-			sepNavVisRange = "{1347, 1007}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1963}}";
+			sepNavSelRange = "{2303, 0}";
+			sepNavVisRange = "{1601, 944}";
 		};
 	};
 	267AEA9111848E3300623423 /* BankClient */ = {
@@ -104,7 +104,7 @@
 	};
 	267AEAA911848EA000623423 /* bankproxy.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 545}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 540}}";
 			sepNavSelRange = "{532, 0}";
 			sepNavVisRange = "{0, 643}";
 		};
@@ -125,9 +125,10 @@
 	};
 	267AEAB111848EC200623423 /* bankaccountproxy.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 624}}";
-			sepNavSelRange = "{984, 0}";
-			sepNavVisRange = "{84, 1047}";
+			sepNavIntBoundsRect = "{{0, 0}, {720, 650}}";
+			sepNavSelRange = "{263, 11}";
+			sepNavVisRange = "{144, 360}";
+			sepNavWindowFrame = "{{15, 276}, {1057, 597}}";
 		};
 	};
 	267AEACD1184915500623423 /* remoteobjref.h */ = {
@@ -174,17 +175,37 @@
 		vrLen = 484;
 		vrLoc = 0;
 	};
-	267AEB751184A86E00623423 /* PBXTextBookmark */ = {
+	2684F0291187A7A2002C83E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 267AEAB111848EC200623423 /* bankaccountproxy.cpp */;
-		name = "bankaccountproxy.cpp: 44";
+		name = "bankaccountproxy.cpp: 25";
 		rLen = 0;
-		rLoc = 984;
+		rLoc = 569;
 		rType = 0;
-		vrLen = 1047;
-		vrLoc = 84;
+		vrLen = 1039;
+		vrLoc = 46;
 	};
-	2698BD8411866286004499AF /* PBXTextBookmark */ = {
+	2684F02A1187A7A2002C83E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		name = "main.cpp: 54";
+		rLen = 93;
+		rLoc = 1085;
+		rType = 0;
+		vrLen = 799;
+		vrLoc = 466;
+	};
+	2684F0A111887513002C83E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		name = "main.cpp: 109";
+		rLen = 0;
+		rLoc = 2303;
+		rType = 0;
+		vrLen = 944;
+		vrLoc = 1601;
+	};
+	26A35C151187A4AE0001EA15 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 267AEAA911848EA000623423 /* bankproxy.h */;
 		name = "bankproxy.h: 24";
@@ -203,26 +224,6 @@
 		rType = 0;
 		vrLen = 1031;
 		vrLoc = 496;
-	};
-	26A64C1C1185B43F005C38AB /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
-		name = "main.cpp: 114";
-		rLen = 0;
-		rLoc = 2383;
-		rType = 0;
-		vrLen = 1007;
-		vrLoc = 1347;
-	};
-	26A64C1E1185B43F005C38AB /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 267AEAA911848EA000623423 /* bankproxy.h */;
-		name = "bankproxy.h: 24";
-		rLen = 0;
-		rLoc = 532;
-		rType = 0;
-		vrLen = 643;
-		vrLoc = 0;
 	};
 	8DD76F620486A84900D96B5E /* BankClient */ = {
 		activeExec = 0;

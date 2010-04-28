@@ -11,7 +11,7 @@
 
 BankAccountProxy::BankAccountProxy( RemoteObjRef newref ) {
 	remref = newref;
-	cout << "New account created: " << remref.marshall() << endl;
+	cout << "New account proxy created: " << remref.marshall() << endl;
 };
 
 int BankAccountProxy::viewAccount() {

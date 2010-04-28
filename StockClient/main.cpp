@@ -12,7 +12,7 @@ RemoteObjModule rom;
 StockServantProxy stockserver;
 
 int manageaccount(StockAccountProxy stockacct) {	
-	int choice;
+	string choice;
 	char type;
 	string s;
 	int shares;
@@ -30,30 +30,30 @@ int manageaccount(StockAccountProxy stockacct) {
 		cout << "Option: ";
 		cin >> choice;
 		
-		if (choice == 1) {  //View account
+		if (choice == "1") {  //View account
 			
 			stockacct.viewAccount();
 			
-		} else if (choice == 2) { //Buy Stock
+		} else if (choice == "2") { //Buy Stock
 			
-			cout << "Symbol: ";
+			cout << endl << endl << "Symbol: ";
 			cin >> s;
 			cout << "Number of shares: ";
 			cin >> shares;
-			cout << stockacct.buyStock(s, shares) << endl;
+			cout << endl << endl << stockacct.buyStock(s, shares) << endl << endl << endl;
 			
-		} else if (choice == 3) { //Sell Stock 
+		} else if (choice == "3") { //Sell Stock 
 			
-			cout << "Symbol: ";
+			cout << endl << endl << "Symbol: ";
 			cin >> s;
 			cout << "Number of shares: ";
 			cin >> shares;
-			cout << stockacct.sellStock(s, shares) << endl;
+			cout << endl << endl << stockacct.sellStock(s, shares) << endl << endl << endl;
 						
-		} else if (choice == 4) { //Bank Transfer
+		} else if (choice == "4") { //Bank Transfer
 			float amount;
 			
-			cout << "1: Stock Account to Bank" << endl;
+			cout << endl << endl << "1: Stock Account to Bank" << endl;
 			cout << "2: Bank to Stock Account" << endl;
 			cout << "Option: ";
 			cin >> type;
@@ -63,12 +63,14 @@ int manageaccount(StockAccountProxy stockacct) {
 			
 			stockacct.Transfer(type, amount);
 				
-		} else if (choice == 5) { //Return to Main Menu
+			cout << endl << endl;
+
+		} else if (choice == "5") { //Return to Main Menu
 			return 1;
-		} else if (choice == 6) { //Check on stock
+		} else if (choice == "6") { //Check on stock
 			string s;
 			
-			cout << "Symbol: ";
+			cout << endl << endl << "Symbol: ";
 			cin >> s;
 			
 			StockProxy stk = stockserver.getStock(s); //Get the stock obj;
@@ -77,19 +79,23 @@ int manageaccount(StockAccountProxy stockacct) {
 			    cout << endl << stk.view() << endl << endl;
 			} else {
 				cout << endl << "Stock not found!" << endl << endl;
-			}
-
+			} 			
+		} else {
+			cout << endl << endl << "Please make a valid selection" << endl << endl;		
 		}
+ 
 	}
 }
 
 void userinterface () {
-	int logoff, choice;
+	int logoff;
+	string choice;
 	string name, bank;
 	StockAccountProxy stockaccount;
 
 	
 	while (logoff == 0) {
+		
 		cout << endl << endl << endl;
 		cout << "Please choose one of the following options:" << endl;
 		cout << "1. Create account" << endl;
@@ -98,13 +104,12 @@ void userinterface () {
 		cout << "Option:";
 		cin >> choice;
 		
-		cout << choice << endl;
 		
-		if (choice == 1) { //Create account
+		if (choice == "1") { //Create account
 			string pass1("1");
 			string pass2("2");
 			
-			cout << "Create New Stock Account" << endl;
+			cout << endl << endl << "Create New Stock Account" << endl;
 			cout << "Name:";
 			cin >> name;
 			while (pass1 != pass2) {
@@ -116,43 +121,58 @@ void userinterface () {
 			cout << "Bank:";
 			cin >> bank;
 			try {
+				cout << endl << endl;
+
 				stockaccount = stockserver.createStockAccount (name, pass1, bank);
 				manageaccount(stockaccount);
+				
+				cout << endl << endl;
+
 			}
 			catch (string output) {
 				cout << endl << endl << output << endl << endl;
 			}
-		} else if (choice == 2) { //Get existing account
+		} else if (choice == "2") { //Get existing account
 			string pass;
 			
-			cout << "Get Stock Account" << endl;
+			cout << endl << endl << "Get Stock Account" << endl;
 			cout << "Name:";
 			cin >> name;
 			cout << "Password:";
 			cin >> pass;
 			try {
+				cout << endl << endl;
+
 				stockaccount = stockserver.getStockAccount(name, pass);
 				manageaccount(stockaccount);
+				
+				cout << endl << endl;
+
 			}
 			catch (int e) {
 				if (e == 0) {
-					cout << "Account not found\n";
+					cout << "\n\nAccount not found\n\n";
 				} else {
-					cout << "Error getting account\n";
+					cout << "\n\nError getting account\n\n";
 				}
 			}
-		} else if (choice == 3) { //Close Account
+		} else if (choice == "3") { //Close Account
 			string pass;
 			
-			cout << "Close Stock Account" << endl;
+			cout << endl << endl << "Close Stock Account" << endl;
 			cout << "Name:";
 			cin >> name;
 			cout << "Password:";
 			cin >> pass;
-		    stockserver.closeStockAccount(name, pass);
 			
+			cout << endl << endl;
+
+		    stockserver.closeStockAccount(name, pass);
+
+			cout << endl << endl;
+		
 		} else {
-			logoff == 1;
+			cout << endl << endl << "Please make a valid selection" << endl << endl;		
 		}
 	}
 };
